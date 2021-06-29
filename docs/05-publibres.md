@@ -1,5 +1,4 @@
 # Publicaciones libres
 
-## Problema
 
-## Solución
+Palabras finales...

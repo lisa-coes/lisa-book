@@ -1,14 +1,6 @@
 introducción
+diseño-transparente
 datos-abiertos
-problema
-solución
-transparencia
-problema-1
-solución-1
-reproducibilidad
-problema-2
-solución-2
+análisis-reproducible
 publicaciones-libres
-problema-3
-solución-3
 conclusiones
