@@ -41,7 +41,6 @@ plantillas-para-registered-reports
 otras-herramientas
 registered-reports
 transparency-checklist
-anexos
 análisis-reproducibles
 qué-se-ha-hecho
 berkeley-initiative-for-transparency-in-the-social-sciences

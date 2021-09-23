@@ -1,4 +1,4 @@
-## Anexos
+## Anexos {-}
 
 <table class="table table-striped table-bordered" style="font-size: 10px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">(\#tab:tabqrp)Algunas situaciones de QRP</caption>

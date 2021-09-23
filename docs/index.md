@@ -6,7 +6,8 @@ date: "23 septiembre 2021"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-biblio-style: apalike
+# biblio-style: apalike
+csl: apa7-singlespace.csl
 link-citations: yes
 description: "Libro colaborativo del Laboratorio de Ciencia Social Abierta"
 favicon: images/lisa.ico

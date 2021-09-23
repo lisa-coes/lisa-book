@@ -1,10 +1,10 @@
 ## Propiedad intelectual {#propiedad}
 
-<div style="text-align: justify"> Esta sección busca comprender la importancia de la propiedad intelectual abordando los elementos centrales de la producción científica y su resguardo legal. Es importante conocer los elementos que nos servirán al momento de definir el carácter y el modo en que permitiremos que nuestras creaciones sean utilizadas y difundidas. La propiedad intelectual no es un elemento accesorio, pues *"nos habla de facultades exclusivas que posee el autor sobre su obra y que le permiten gozar de su uso y explotación"* [@loredo_derecho_2012]. Para nuestros efectos, se concibe como el peldaño inicial para abordar los esfuerzos hacia la publicación libre.<div/>
+ Esta sección busca comprender la importancia de la propiedad intelectual abordando los elementos centrales de la producción científica y su resguardo legal. Es importante conocer los elementos que nos servirán al momento de definir el carácter y el modo en que permitiremos que nuestras creaciones sean utilizadas y difundidas. La propiedad intelectual no es un elemento accesorio, pues *"nos habla de facultades exclusivas que posee el autor sobre su obra y que le permiten gozar de su uso y explotación"* [@loredo_derecho_2012]. Para nuestros efectos, se concibe como el peldaño inicial para abordar los esfuerzos hacia la publicación libre.
 
 ### Sobre la Propiedad Intelectual y las Licencias 
 
-<div style="text-align: justify"> La *Propiedad Intelectual (PI)* es una normativa que permite el reconocimiento autoral de toda invención de la mente humana [@worldintelectualpropietyorganization_what_2020], su objetivo es fomentar la creación e innovación, al mismo tiempo en el que regula el uso y difusión de las obras. La PI es un tipo de ley cuya rigurosidad varia según el país y funciona en base a dos grandes ascepciones:
+ La *Propiedad Intelectual (PI)* es una normativa que permite el reconocimiento autoral de toda invención de la mente humana [@worldintelectualpropietyorganization_what_2020], su objetivo es fomentar la creación e innovación, al mismo tiempo en el que regula el uso y difusión de las obras. La PI es un tipo de ley cuya rigurosidad varia según el país y funciona en base a dos grandes ascepciones:
 
 1.  **Common Law**: rige en *Estados Unidos e Inglaterra* y regula la reproducción (copia) de la obra, su distribución, su exhibición pública y su transformación ya sea traducida o adaptada [@fernandez_derechos_2009]. A partir de @omatos_aspectos_2013 se comprende que es una facultad que poseen los autores y su particularidad es que puede ser transferida ya sea por voluntad propia o por prescripción, siendo así ampliados los derechos del uso de la obra bajo distintos tipos de licencias de *Copyrigth, Creative Commons, Copyleft y Dominio Público*.
 
@@ -14,11 +14,11 @@ A modo de contexto, en el caso de Chile este se ha suscrito a tratados internaci
 
 1.  **Tratado de Berna** (rectificado en 1973): establece indicaciones a los países asociados para resguardar las obras internacionales en el propio territorio. 
 
-2.  **Convenio de OMPI** (rectificado en 1975): establece una suerte de guía a los países adherentes, esta sirve para la elaboración de leyes que atiendan el resguardo de la propiedad intelectual dentro del mundo digital [@fernandez_derechos_2009].<div/>
+2.  **Convenio de OMPI** (rectificado en 1975): establece una suerte de guía a los países adherentes, esta sirve para la elaboración de leyes que atiendan el resguardo de la propiedad intelectual dentro del mundo digital [@fernandez_derechos_2009].
 
 ### Tipos de Licencias
 
-<div style="text-align: justify"> Las licencias sobre la propiedad intelectual regulan los derechos patrimoniales de la obra y establecen las *reglas* para su uso. Las licencias más conocidas son:
+ Las licencias sobre la propiedad intelectual regulan los derechos patrimoniales de la obra y establecen las *reglas* para su uso. Las licencias más conocidas son:
 
 1.  **Copyright:** Esta licencia permite que el autor se reserve todos los derechos sobre la obra y solo se puede hacer uso de ella bajo permiso del mismo.
 
@@ -31,11 +31,11 @@ A modo de contexto, en el caso de Chile este se ha suscrito a tratados internaci
 
 3.  **Copyleft:** Este tipo de licencia proviene del movimiento [*Open Access*](https://open-access.net/en/information-on-open-access/history-of-the-open-access-movement){target="_blank"} y se orienta a abrir el uso, aplicación, distribución y creación de obras. Además de permitir el uso libre, indica la obligación de que todo proyecto que nazca a partir del original contenga los principios del acceso abierto.
 
-4.  **Dominio Público:** Si bien no corresponde a una licencia como tal, es un estado en el que la obra no posee protección patrimonial pues ha prescrito el plazo de su protección.<div/>
+4.  **Dominio Público:** Si bien no corresponde a una licencia como tal, es un estado en el que la obra no posee protección patrimonial pues ha prescrito el plazo de su protección.
 
 ### El conocimiento es poder pero ¿De quién?
 
-<div style="text-align: justify"> Tanto organismos de investigación pública como universidades crean conocimiento científico por medio de la investigación y la docencia con el fin de aportar al bien público. Si bien, la apertura de las publicaciones puede ser lo ideal para tales objetivos, en ocasiones la confidencialidad de los resultados científicos permite a sus autores obtener beneficios económicos de su trabajo. Sin importar cuál sea el camino, la propiedad intelectual juega un papel importante al orientar la toma de decisiones en torno al desarrollo, difusión y utilización del conocimiento intelectual [@wipo_frequently_2020]. Por ello contar con una política intelectual de calidad es el primer paso para gestionar estratégicamente la difusión y transferencia de los resultados científicos.
+ Tanto organismos de investigación pública como universidades crean conocimiento científico por medio de la investigación y la docencia con el fin de aportar al bien público. Si bien, la apertura de las publicaciones puede ser lo ideal para tales objetivos, en ocasiones la confidencialidad de los resultados científicos permite a sus autores obtener beneficios económicos de su trabajo. Sin importar cuál sea el camino, la propiedad intelectual juega un papel importante al orientar la toma de decisiones en torno al desarrollo, difusión y utilización del conocimiento intelectual [@wipo_frequently_2020]. Por ello contar con una política intelectual de calidad es el primer paso para gestionar estratégicamente la difusión y transferencia de los resultados científicos.
 
 A continuación, se presentan dos experiencias chilenas que se consideran como buenas prácticas en términos de políticas institucionales, pues promueven la apertura de publicaciones.
 
@@ -59,7 +59,7 @@ Este repositorio académico hace uso de un protocolo de interoperabilidad que pe
 
 Ambos ejemplos de políticas institucionales proveen una exitosa colaboración entre el mundo científico y el público general, ya que orientan la toma de decisiones al finalizar el ejercicio investigativo y permiten la apertura del conocimiento. Según @alperin_indicadores_2014, en América Latina se ha desarrollado el ejercicio del Open Access mediante el financiamiento - casi exclusivo - de agencias estatales y agencias de cooperación internacional. Sus resultados se publican principalmente en revistas locales o repositorios regionales, un ejemplo de ello es Argentina, país donde el 80% de los artículos científicos se encuentran indexados en revistas locales [@alperin_indicadores_2014], ya que la nación se ha inclinado en promover políticas de autoarchivo como la *Ley Nacional de Repositorios* promulgada en 2013 y la creación del *Sistema Nacional de Repositorios Digitales* creado en 2011 [@monti_acceso_2020]. 
 
-La evidencia de cuenta de que para el caso Latinoamericano, son los organismos universitarios y de investigación pública los responsables de desarrollar eficaces políticas de ciencia abierta con el objetivo de aportar a la libre circulación de los resultados científicos, pues dentro de sus beneficios como se ilustra en la figura n° \@ref(fig:beneficios) no solo se evidencia la mayor exposición de los trabajos científicos, también existe un aporte en terminos de desarrollo a nivel país, influencia de políticas, entre otros aspectos positivos.<div/>
+La evidencia de cuenta de que para el caso Latinoamericano, son los organismos universitarios y de investigación pública los responsables de desarrollar eficaces políticas de ciencia abierta con el objetivo de aportar a la libre circulación de los resultados científicos, pues dentro de sus beneficios como se ilustra en la figura n° \@ref(fig:beneficios) no solo se evidencia la mayor exposición de los trabajos científicos, también existe un aporte en terminos de desarrollo a nivel país, influencia de políticas, entre otros aspectos positivos.
 
 <div class="figure" style="text-align: center">
 <img src="images/OpenAccess.png" alt=" Beneficios del Open Access. Traducción propia en base a Kingsley, D. &amp; Brown, S. (2021)." width="100%" />

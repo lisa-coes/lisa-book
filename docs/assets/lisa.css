@@ -81,6 +81,13 @@ h1, h2, h3, h4 {
   color: #c7254e;
 }
   
+.book .book-body .page-wrapper .page-inner section.normal blockquote, .book .book-body .page-wrapper .page-inner section.normal dl, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal table, .book .book-body .page-wrapper .page-inner section.normal ul {
+    margin-top: 0px;
+    margin-bottom: 0.85em;
+    text-align: justify;
+}
+  
+  
 
 /*----------DROP CAPS--------------*/
 

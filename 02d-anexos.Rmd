@@ -1,4 +1,4 @@
-## Anexos
+## Anexos {-}
 
 ```{r tabqrp, echo=FALSE, message=FALSE, warning=FALSE}
 pacman::p_load(dplyr,kntr,kableExtra)
