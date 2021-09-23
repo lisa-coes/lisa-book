@@ -1,5 +1,0 @@
-# Datos abiertos 
-
-## Problema
-
-## Solución

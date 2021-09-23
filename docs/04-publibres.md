@@ -1,5 +1,0 @@
-# Publicaciones libres
-
-## Problema
-
-## Solución

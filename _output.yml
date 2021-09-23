@@ -1,4 +1,5 @@
 bookdown::gitbook:
+  split_by: section
   highlight: tango
   css: assets/lisa.css
   pandoc_args: [ 
@@ -19,10 +20,10 @@ bookdown::gitbook:
       facebook: no
       twitter: yes
       all: no
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+# bookdown::pdf_book:
+#   includes:
+#     in_header: preamble.tex
+#   latex_engine: xelatex
+#   citation_package: natbib
+#   keep_tex: yes
+# bookdown::epub_book: default
