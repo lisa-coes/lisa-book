@@ -2,10 +2,10 @@
 title: "Ciencia Social Abierta"
 # subtitle: "<center>Documento de trabajo</center>"
 # author: "Investigador a cargo: Juan Carlos Castillo <br> Asistente de investigación: Valentina Andrade <br> Pasante: Vanessa Leyton"
-date: "23 septiembre 2021"
+date: "04 octubre 2021"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib, packages.bib, input/bib/lisacoes.bib]
 # biblio-style: apalike
 csl: apa7-singlespace.csl
 link-citations: yes
