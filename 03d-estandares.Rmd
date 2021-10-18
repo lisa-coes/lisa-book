@@ -262,7 +262,7 @@ El segundo documento, escrito el 2014, se denomina "Datos Científicos Abiertos 
 * Utilizar repositorios interoperables: Para facilitar la recopilación automática de datos y el uso de estos desde distintos Software, se recomienda poseer buenos metadatos siguiendo los parámetros de interoperabilidad de [Dublin Core](http://dublincore.org/). Los metadatos son “los datos sobre los datos” es decir aquella información que nos permite saber a qué corresponde la base de datos, quienes y cuando la crearon entre otras informaciones relevantes. Esta página propone una decena de metadatos indispensables para la interoperabilidad (Ej. creador, colaborador, editor, título, fecha, idioma, formato, tema, descripción, identificador, relación, fuente, tipo, cobertura y derechos, entre otros) [@dublin-core_dublin_2020]. Si bien esta publicación no da cuenta de que metadatos debe ser específicamente utilizado a partir de la información anterior producida por lisa podemos decir que es beneficioso utilizar el conjunto de metadatos para social-science que es un conjunto bastante parsimonioso de información.
 
 
-**CEP**
+**Centro de estudios públicos (CEP)**
 
 El Centro de Estudios públicos produce constantemente encuestas de opinión publica, con bastante contenido electoral. Esta es una de las bases de datos más conocidas en el campo de la sociología de Chile. Y en el último tiempo mejoro su plataforma de almacenamiento. 
 
