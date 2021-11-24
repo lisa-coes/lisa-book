@@ -21,7 +21,11 @@ Una de las principales cosas que debemos considerar al elaborar un proyecto es s
 
 Teniendo en cuenta lo anterior, la forma en que se encuentran **organizadas** las partes de un proyecto es fundamental para cumplir a cabalidad con lo que se propone cada principio. Como vimos en la sección previa, es posible entender la reproducibilidad como un _espectro_ que involucra una tríada de tres elementos: Datos, Métodos y Resultados.  
 
-[ESQUEMA: Datos - Métodos - Resultados]() 
+<div class="figure" style="text-align: center">
+<img src="images/flujo-reproducibilidad.PNG" alt="Flujo de trabajo reproducible." width="75%" />
+<p class="caption">(\#fig:scenarios)Flujo de trabajo reproducible.</p>
+</div>
+
 
 Este esquema es una síntesis que hacemos de algunos de los protocolos más usados en las ciencias sociales. Más que proponer un protocolo nuevo, buscamos describir los elementos fundamentales que contiene una estructura de proyecto reproducible y que están presentes de alguna u otra forma en la mayoría de los protocolos.  
 
