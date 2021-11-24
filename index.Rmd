@@ -12,8 +12,8 @@ link-citations: yes
 description: "Libro colaborativo del Laboratorio de Ciencia Social Abierta"
 favicon: images/lisa.ico
 cover-image: images/lisa-complete.png
-github-repo: lisa-coes/open-access
-url: https://github.com/lisa-coes/open-access
+github-repo: lisa-coes/lisa-book
+url: https://github.com/lisa-coes/lisa-book
 always_allow_html: yes
 ---
 
