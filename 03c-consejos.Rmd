@@ -1,14 +1,14 @@
 ## Consejos para la Apertura de Datos de Investigación Social
 
-A continuación, se presenta una sencilla pauta sobre cómo y dónde publicar abiertamente información cualitativa o cuantitativa producida por investigaciones sociales, cumpliendo con estándares internacionales de almacenamiento. Esta pauta ayuda a cumplir con objetivos señalados por el Consejo Internacional para la Ciencia [@icsu_open_2014], los cuales promueven el acceso oportuno a los registros científicos sin barreras, mejorando su calidad y de modo que sea perdurable en el tiempo. Igualmente, proponemos una guía de almacenamiento que permite cumplir con los principios FAIR (Findable, Accessible, Interoperable, Reusable) promovidos por organizaciones científicas del Estado Chileno, americanas y europeas [@anid_con_2020; @ramirez_ciencia_2019; @ec_fair_2016]. Los estándares FAIR tienen el objetivo de hacer los datos fáciles de encontrar en la web y que estén en formatos que cualquier investigador pueda utilizar [@fair_fair_2020]. 
+A continuación, se presenta una sencilla pauta sobre cómo y dónde publicar abiertamente información cualitativa o cuantitativa producida por investigaciones sociales, cumpliendo con estándares internacionales de almacenamiento. Esta pauta ayuda a cumplir con objetivos señalados por el Consejo Internacional para la Ciencia [@icsu_open_2014], los cuales promueven el acceso oportuno a los registros científicos sin barreras, mejorando su calidad y de modo que sea perdurable en el tiempo. Igualmente, proponemos una guía de almacenamiento que permite cumplir con los principios FAIR (Localizable, Accesible, Interoperable y Reutilizable, en español) promovidos por organizaciones científicas del Estado Chileno, americanas y europeas [@anid_con_2020; @ramirez_ciencia_2019; @ec_fair_2016]. Los estándares FAIR tienen el objetivo de hacer los datos fáciles de encontrar en la web y que estén en formatos que cualquier investigador pueda utilizar [@fair_fair_2020]. 
 
 Esta pauta para la publicación de datos fue creada en base a otros materiales de apoyo con objetivos similares, como la guía de preparación de datos creada por el Consorcio interuniversitario para la investigación política y social (ICPSR), el manual de Autoevaluación para proveedores de repositorios abiertos (RISE) del Digital Curation Center (DDC) [@ddc_using_2017], los planes europeos de manejo de datos (DMP) y los consejos de distintos investigadores tanto para datos cuantitativos como cualitativos [@ccsds_recommendation_2012; @kapiszewski_transparency_2019].
 
 Para publicar los datos de investigación proponemos los siguientes tres momentos:
 
-### __Preparar__ 
+### __Preparar__
 
-#### Datos cualitativos: 
+#### Datos cualitativos:
 
 Considerando que al estar presente en la entrevista se cuenta con una mayor información que solo leyendo su transcripción, cualquier anotación que dé cuenta del ambiente anímico de la entrevista o del gesto que acompaña alguna frase es bienvenida. También es importante subir la pauta de la entrevista si es que existe. Asimismo, aquellos investigadores que hacen un análisis mediante codificación tienen registro del proceso por el cual llegaron a los códigos utilizados para la categorización de la información. Además, esto puede ser complementado con la descripción de las discusiones que surgieron entre el equipo de investigación para establecer tales códigos y el esquema de análisis [@kapiszewski_transparency_2019].
 
@@ -20,7 +20,7 @@ Esta información bien almacenada no solo ayudará a las ciencias sociales por s
 
 Respecto a la confidencialidad de los datos, ICPSR recomienda que: antes de enviar datos cualitativos a un archivo, los depositantes de datos deben tener cuidado de eliminar la información que permita identificar a cualquiera de sus sujetos de investigación. Este proceso se puede hacer menos arduo creando un esquema para anonimizar antes de la recopilación de datos y anonimizando los datos a medida que se crean los archivos cualitativos para el análisis.
 
-Algunas de las modificaciones que se pueden hacer a los datos cualitativos para asegurar confidencialidad del entrevistado, según Marz y Dunn (2000), son: (1) Reemplazar nombres reales con texto generalizado; (2) Reempalzar fechas; (3) Eliminar elementos únicos y/o publicitados.
+Algunas de las modificaciones que se pueden hacer a los datos cualitativos para asegurar confidencialidad del entrevistado, según [@marz_depositing_2000], son: (1) Reemplazar nombres reales con texto generalizado; (2) Reemplazar fechas; (3) Eliminar elementos únicos y/o publicitados.
 
 Dado que los investigadores están más familiarizados con sus datos, se les pide que utilicen su juicio sobre si cierta información cualitativa en combinación con el resto del texto o información cuantitativa relacionada podría permitir la identificación de un individuo.
 
@@ -35,7 +35,7 @@ Para resguardar la calidad de nuestros datos debemos asegurar una correcta **cod
 
 **Errores de codificación**
 
-Verifique cuidadosamente la coherencia entre las respuestas del cuestionario y los valores en la base de datos para el primer 5 a 10 por ciento de los registros de datos creados y luego elija registros aleatorios para controles de calidad. Posteriormente, puede realizar análisis descriptivos de distribución para evaluar si existen valores atípicos atribuibles a errores de codificación (por ejemplo 66 en la variable hijos en vez de 6). El uso de computadores y programas de encuesta y codificación puede ayudar a disminuir estos errores. Algunos de los serivicios recomendados son Qualtrics o SurveyMonkey, entre otros.
+Verifique cuidadosamente la coherencia entre las respuestas del cuestionario y los valores en la base de datos para el primer 5 a 10 por ciento de los registros de datos creados y luego elija registros aleatorios para controles de calidad. Posteriormente, puede realizar análisis descriptivos de distribución para evaluar si existen valores atípicos atribuibles a errores de codificación (por ejemplo 66 en la variable hijos en vez de 6). El uso de computadores y programas de encuesta y codificación puede ayudar a disminuir estos errores. Algunos de los servicios recomendados son Qualtrics o SurveyMonkey, entre otros.
 
 **Recodificación automática**
 
@@ -53,22 +53,22 @@ Proporcione variables identificadoras suficientes. Es fundamental que cada sujet
 
 **Nombres de Variables**
 
-El nombre de la variable será con lo que más se trabajará con los datos, por ende, deben ser claros y utilizables por distintitos softwares. 
+El nombre de la variable será con lo que más se trabajará en los datos, por ende, deben ser claros y utilizables por distintos software. 
 
 Existen distintos estándares para elegir los nombres de las variables. 
 
-1. El primero consiste en asignar un numero único anteponiendo una V de modo tal que, siendo n el número de variables, las variables se nombran como *Vn* según su posición (p ej. V0001, v0002,...Vn). Se antepone la V por que los softwares en general no permiten nombres de variables con solo caracteres numéricos. 
+1. El primero consiste en asignar un numero único anteponiendo una V de modo tal que, siendo n el número de variables, las variables se nombran como *Vn* según su posición (p ej. V0001, v0002,... Vn). Se antepone la V debido a que los software en general no permiten nombres de variables con solo caracteres numéricos. 
 
-2. El segundo modo utiliza letras y números para agrupar las variables según escalas o temas (por ejemplo Q1,Q2a,Q2b), si bien es un sistema que entrega más información, no informa sobre el contenido. 
+2. El segundo modo utiliza letras y números para agrupar las variables según escalas o temas (por ejemplo Q1, Q2a, Q2b). Si bien es un sistema que entrega más información, no informa sobre el contenido. 
 
-3. El tercero consiste en utilizar abreviaturas mnemotécnicas, es decir, nombres cortos de variables que representan el significado sustantivo de las variables facilitando su memorización y comprensión. Por ejemplo _educpadr_ como "Educación del Padre". Este tipo de nombres podrían ayudar a disminuir los errores en los análisis producidos por agregar una variable incorrecta en el código. El problema es que con la limitación de caracteres de los softwares es difícil generar abreviaturas arbitrarias que sean ampliamente reconocibles por un público diverso. 
+3. El tercero consiste en utilizar abreviaturas mnemotécnicas, es decir, nombres cortos de variables que representan el significado sustantivo de las variables facilitando su memorización y comprensión. Por ejemplo _educpadr_ como "Educación del Padre". Este tipo de nombres podrían ayudar a disminuir los errores en los análisis producidos por agregar una variable incorrecta en el código. El problema es que con la limitación de caracteres de los software es difícil generar abreviaturas arbitrarias que sean ampliamente reconocibles por un público diverso. 
 
 4. El cuarto consiste en abreviaciones compartidas y registradas. Un sistema de raíces y sufijos. Por ejemplo, todas las variables que tienen que ver con la educación pueden tener la raíz ED, y podría expresarse "Educación del Padre" como FAED, siendo esta nomenclatura previamente documentada. Esto implica una planificación previa y capacidad de organización para compartir las abreviaturas, así como herramientas para facilitar el encontrar las abreviaturas correctas en la biblioteca o documento de sufijos y prefijos. 
 
 En consideración de estas opciones expuestas por ICPSR, se recomienda utilizar la tercera, puesto que cumple con la cualidad de la primera y la segunda de identificar las variables de modo único, a la vez que cumple con el criterio de hacer más comprensible y fácil de recordar. 
 
 
-Junto a lo señalado por ICPSR, consideramos que al crear un nombre de la variable este debe ser utilizable por los distintos softwares comúnmente utilizados como SPSS, STATA y R. En vista de lo anterior sugerimos: 
+Junto a lo señalado por ICPSR, consideramos que al crear un nombre de la variable este debe ser utilizable por los distintos software comúnmente utilizados como SPSS, STATA y R. En vista de lo anterior sugerimos: 
 
 + Dos variables no pueden tener el mismo nombre
         
@@ -82,9 +82,9 @@ Junto a lo señalado por ICPSR, consideramos que al crear un nombre de la variab
 
 + No utilizar la letra ñ, remplazarlo por gn (agnos, en vez de años)
 
-+ No utilizar palabras con tildes (tipo á; ü)
++ No utilizar palabras con tildes (tipo á; ü; â)
 
-+ Remplazando espacios por guion bajo. (edad_rec)
++ Remplazando espacios por guión bajo. (edad_rec)
         
         
         
@@ -131,7 +131,7 @@ ICPSR no establece un modo determinado de identificar los casos perdidos, aunque
 
 * Datos no disponibles. La pregunta debería haberse formulado al encuestado, pero por otro motivo distinto de los enumerados anteriormente, no se dio ni registró ninguna respuesta.
 
-Considerando las ventajas y desventajas de las distintas formas de codificación se sugiere utilizar valores perdidos con valores altos en negativo de modo tal que sean estándar para todas las variables y no sean confundible con los valores posibles de dichas variables. Se propone utilizar los siguientes valores perdidos, usando numéricos o caracteres según corresponda. 
+Considerando las ventajas y desventajas de las distintas formas de codificación se sugiere utilizar valores perdidos con valores altos en negativo de modo tal que sean estándar para todas las variables y no sean confundible con los valores posibles de otras variables. Se recomienda utilizar la recodificación presente en la Tabla N° \@ref(tab:tabna), usando valores numéricos o caracteres según corresponda.
 
 
 | Código de texto   | Código numérico |
@@ -142,6 +142,7 @@ Considerando las ventajas y desventajas de las distintas formas de codificación
 | No aplica         | -996            |
 | Sin coincidencia  | -995            |
 | No disponible     | -994            |
+Table: `r as.character(paste("(\\#tab:tabna)", "Recomendacion de recodificación para valores perdidos."))`. <!-- Label+titulo de tabla en syntax Markdown pura -->
 
 
 Para obtener información adicional sobre datos georreferenciados e imputaciones revise directamente la guía ofrecida por ICPSR disponible en este [enlace](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf)
@@ -175,7 +176,7 @@ La licencia se puede crear fácilmente al publicar los datos en el Open Science 
 
 **Metadatos**
 
-La creación de los metadatos requiere previamente que se cree el identificador y la página web en OSF que almacenara los datos. Por ello la creación de los metadatos será posterior a la publicación. Cabe desacatar que el modo de crear metadatos difiere según si el tipo de material es una transcripción de entrevista en PDF o una base de datos en formato sav, stat o rda. 
+La creación de los metadatos requiere previamente que se cree el identificador y la página web en Open Science Framework que almacenara los datos. Por ello la creación de los metadatos será posterior a la publicación. Cabe desacatar que el modo de crear metadatos difiere según si el tipo de material es una transcripción de entrevista en PDF o una base de datos en formato sav, stata o rda.
 
 
 **Documentos especiales según tipo de metodología**
@@ -220,14 +221,14 @@ Para publicar datos cualitativos se sugiere documentar la siguiente información
 
 **OSF y plataformas para publicar datos**
 
-La plataforma web Open Science Framework (OSF) ofrece gratuitamente servicios de infraestructura digital que permite un espacio de registro para las distintas etapas de un proyecto de investigación. Actualmente existen otras plataformas con objetivos similares como Zenodo, Dataverse, GitHub, Mendeley, Figshare, Dryad o ICPSR, y si bien todas son buenas herramientas, se remienda utilizar OSF por diversos motivos señalados por @kryvokhyzha_best_2019 y un documento informativo de la Librería de Universidades de la Universidad de OKLAHOMA [-@universitarias_make_2020]. En primer lugar, a diferencia de Dryad, OSF es una plataforma gratuita, con mejor estructura de repositorios y con posibilidades de corregir errores. En segundo lugar, Figshare tiene la capacidad de estructurar los repositorios en distintos componentes, pero no está optimizado para descargar muchos archivos a la vez y, además es una empresa con fines de lucro. Por su parte OSF, permite estructurar de diversos modos los repositorios, esta optimizado para descargas y es una organización sin fines de lucro que es financiada por el Centro para la Ciencia Abierta [(cos)](https://www.cos.io/) con recursos para 50 años más. En tercer lugar, a diferencia de Zenodo y GitHub, OSF si cuenta con estadísticas de descarga que nos permiten evaluar la visibilidad de los datos. En último lugar, GitHub si bien es una alternativa que ha sido utilizada para este fin, en realidad más que una plataforma para subir datos es una plataforma para crear códigos de forma colaborativa, usualmente de aplicaciones, además no nos permite crear de modo automático un DOI, lo cual es fundamental para cumplir con los principios FAIR. 
+La plataforma web Open Science Framework (OSF) ofrece gratuitamente servicios de infraestructura digital que permite un espacio de registro para las distintas etapas de un proyecto de investigación. Actualmente existen otras plataformas con objetivos similares como Zenodo, Dataverse, GitHub, Mendeley, Figshare, Dryad o ICPSR, y si bien todas son buenas herramientas, se remienda utilizar OSF por diversos motivos señalados por @kryvokhyzha_best_2019 y un documento informativo de la Librería de Universidades de la Universidad de OKLAHOMA [-@universitarias_make_2020]. En primer lugar, a diferencia de Dryad, OSF es una plataforma gratuita, con mejor estructura de repositorios y con posibilidades de corregir errores. En segundo lugar, Figshare tiene la capacidad de estructurar los repositorios en distintos componentes, pero no está optimizado para descargar muchos archivos a la vez y, además es una empresa con fines de lucro. Por su parte OSF, permite estructurar de diversos modos los repositorios, esta optimizado para descargas y es una organización sin fines de lucro que es financiada por el Centro para la Ciencia Abierta [(cos)](https://www.cos.io/) con recursos para 50 años más. En tercer lugar, a diferencia de Zenodo y GitHub, Open Science Framework si cuenta con estadísticas de descarga que nos permiten evaluar la visibilidad de los datos. En último lugar, GitHub si bien es una alternativa que ha sido utilizada para este fin, en realidad más que una plataforma para subir datos es una plataforma para crear códigos de forma colaborativa, usualmente de aplicaciones, además no nos permite crear de modo automático un DOI, lo cual es fundamental para cumplir con los principios FAIR. 
 
 
 No obstante, si el equipo investigador lo considera conveniente podría subir sus datos a múltiples plataformas. En esta línea, además de OSF, recomendamos almacenar los datos paralelamente en [OpenICPSR](https://www.openicpsr.org/openicpsr/workspace?path=openICPSR) puesto que esto permitirá conectar nuestros datos con el buscador de ICPSR, el cual tiene amplia visibilidad dentro del campo de las ciencias sociales a nivel internacional. 
 
-En esta página, un usuario puede crear un repositorio denominado proyecto, que puede contener, al mismo tiempo, componentes que pueden ser investigaciones o datos específicos dentro del proyecto. Se pueden crear más componentes de estos tipos de los componentes del proyecto. Esta estructura permite almacenar conjuntamente algunos trabajos relacionados.
+En esta página, un usuario puede crear un repositorio denominado proyecto, que puede contener, al mismo tiempo, componentes que pueden ser investigaciones o datos específicos dentro del proyecto. Se pueden crear más componentes dentro de los ya creados del proyecto. Esta estructura permite almacenar conjuntamente algunos trabajos relacionados.
 
-La plataforma promueve que se registren productos de la investigación de las distintas etapas del proceso. En primer lugar, posee un espacio para los "pre-registros" que son un documento en el cual se expone brevemente el diseño de la investigación, las hipótesis y la metodología, lo cual aumenta la rigurosidad de las investigaciones.
+La plataforma promueve que se registren productos de la investigación de las distintas etapas del proceso. En primer lugar, posee un espacio para los "preregistros" que son un documento en el cual se expone brevemente el diseño de la investigación, las hipótesis y la metodología, lo cual aumenta la rigurosidad de las investigaciones.
 
 Ambas evaluaciones de OSF señalan que un problema es el límite de almacenamiento de solo 5gb por archivo. Este límite ha sido modificado el 5 de noviembre del 2020, agregando un límite de 5gb a los proyectos que estén privados y 50gb a los públicos. No obstante, el problema del espacio se puede resolver conectando OSF con otros servicios de almacenamiento con mayor capacidad.
 
@@ -236,17 +237,17 @@ Ambas evaluaciones de OSF señalan que un problema es el límite de almacenamien
 
 __Paso 1__ 
 
-Para crear los metadatos de forma muy sencilla se puede utilizar un archivo csv, que se puede editar con el programa Excel o cualquier Hoja de cálculo. A continuación, entregamos un link para descargar un csv con los campos para rellenar los metadatos, cumpliendo con los campos utilizados por Dataverse Harvard y los "Social Science and Humanities Metadata" de ICPSR.
+Para crear los metadatos de forma muy sencilla se puede utilizar un archivo csv, que se puede editar en cualquier Hoja de cálculo. A continuación, entregamos un enlace para descargar un csv con los campos para rellenar los metadatos, cumpliendo con los campos utilizados por Dataverse Harvard y los "Social Science and Humanities Metadata" de ICPSR.
 
 Para crear los metadatos usted solo debe escribir en las casillas de abajo de las categorías, la respuesta para cada uno de los campos, señalando el identificador, el Título de los datos, los autores, entre otros. Es necesario que rellene los campos en inglés. Con una traducción simple de [Google Traductor](https://translate.google.com/) o [DeepL](https://www.deepl.com/es/translator) es suficiente. 
 
-Para descargar el archivo csv editable en Excel seleccione [Descargar Metadata.cvs](https://raw.githubusercontent.com/franciscomeneses/CADIS/master/metadata.csv). Si no le ofrece directamente abrirlo con Excel, puede apretar click derecho sobre el archivo, seleccionar "Abrir con", luego Excel, si no aparece seleccionamos "Elegir otra aplicación", "Más aplicaciones" y luego Excel. 
+Para descargar el archivo csv editable seleccione [Descargar Metadata.cvs](https://raw.githubusercontent.com/franciscomeneses/CADIS/master/metadata.csv). 
 
 Cabe destacar que, para el primer campo correspondiente al Identificador, antes del código entregado por OSF debe estar escrito https://doi.org/ como se muestra en el documento descargado. Esto es para cumplir con los estándares FAIR. 
 
 __Paso 2__
 
-Después de haber creado el documento csv con nuestra información solo debemos seleccionar al siguiente link e ir al sitio web:  [csvjson.com](https://csvjson.com/csv2json). En este sitio tenemos que apretar Select a file... y buscar el documento csv creado. Posteriormente, se debe señalar output: "Array" y "Minify", como se señala en la imagen. Con estas opciones apretamos el botón morado >Convert bajo el cuadrado que posee nuestro documento CSV. Cuando esté listo apretamos el botón Download, como se señala en la Figura N° \@ref(fig:csvjson). El documento se descargará con el nombre csvjson, debe cambiarlo a metadata. 
+Después de haber creado el documento csv con nuestra información solo debemos seleccionar el siguiente enlace e ir al sitio web:  [csvjson.com](https://csvjson.com/csv2json). En este sitio tenemos que apretar Select a file... y buscar el documento csv creado. Posteriormente, se debe señalar output: "Array" y "Minify", como se señala en la Figura N° \@ref(fig:csvjson). Con estas opciones apretamos el botón morado >Convert bajo el cuadrado que posee nuestro documento CSV. Cuando esté listo apretamos el botón Download, como se señala en la Figura N° \@ref(fig:csvjson). El documento se descargará con el nombre csvjson, debe cambiarlo a metadata. 
 
 ```{r csvjson, echo=FALSE, fig.cap="Creación de documento de metadatos", fig.align='center',out.width="80%"}
 knitr::include_graphics("images/csvtosjon.png")

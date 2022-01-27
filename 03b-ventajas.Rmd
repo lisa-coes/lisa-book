@@ -13,7 +13,7 @@ Las ventajas de la apertura de datos son varias. A continuación nos centramos e
 
   + Dejar la base de datos a libre disposición permite hacer evaluaciones sobre la rigurosidad de los resultados mediante la reproducibilidad, mejorando la calidad y la confianza en la ciencia [@unesco_que_2020].
   
-  + Fomenta que más investigadores utilicen los datos y produzcan información [@whyte_open_2011], aumentando la colaboración y con ello la innovación científica, según señala el Foro Abierto de Ciencias Latinoamérica y el Caribe CILIAC [@ramirez_ciencia_2019].
+  + Fomenta que más investigadores utilicen los datos y produzcan información [@whyte_open_2011], aumentando la colaboración y con ello la innovación científica, según señala el Foro Abierto de Ciencias de Latinoamérica y el Caribe (CILAC) [@ramirez_ciencia_2019].
   
   + Considerando que los recursos públicos asignados a investigación son escasos, la apertura de las bases de datos permite su reutilización y por ello ahorra recursos en la construcción de bases de datos, fomentando la eficiencia fiscal [@gomez_datos_2016].
   

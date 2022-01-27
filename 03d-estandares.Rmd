@@ -29,7 +29,7 @@ Los estándares internacionales revisados son los siguientes:
 * archivado y disponible a perpetuidad
 
 
-#### **Principios FAIR:  Datos, Metadatos e infraestructura digital.**
+#### **Principios FAIR: Datos, Metadatos e infraestructura digital.**
 
 Los principios de almacenamiento FAIR (Findable, Accessible, Interoperable, Reusable), son ampliamente reconocidos a nivel mundial. Estos principios han sido promovidos por organizaciones científicas regionales como El Foro Abierto de Ciencias de América Latina y el Caribe (CILAC) [@ramirez_ciencia_2019] y Europeas [@ec_fair_2016]. En Chile, la ANID del *Ministerio de Ciencia, Tecnología, Conocimiento e Innovación*, ha señalado que la política de acceso a datos que impulsará se guiará por los principios FAIR (para más detalles ver Capítulo V).
 
@@ -43,7 +43,7 @@ knitr::include_graphics("images/FAIR_data_principles.JPG")
 
 Los principios se refieren a tres tipos de entidades: _"datos"_ (o cualquier producto de investigación como objeto digital), __"metadatos"__ (información sobre ese objeto digital) e infraestructura digital (Capacidades y herramientas necesarias en repositorios web).
 
- __Findable__ _("Encontrables")_
+ __Findable__ _("Localizables")_
 
 El primer paso para (re) usar datos es encontrarlos. Los metadatos y los datos deben ser fáciles de encontrar tanto para humanos como para computadoras. Los metadatos legibles por máquina son esenciales para el descubrimiento automático de conjuntos de datos y servicios, por lo que este es un componente esencial para alcanzar el estándar de los principios FAIR. A continuación se enumeran cuatro características claves de los principios FAIR para *encontrar* los datos.
 
@@ -64,7 +64,7 @@ Estos identificadores también ayudarán a que el trabajo sea fácilmente compar
 
 Para generar un identificador único se pueden usar páginas especializadas que pueden encontrarse en [DoiChile]( https://doichile.cl/conseguir-doi/). También, para facilitar el trabajo, muchos repositorios de datos generarán automáticamente identificadores persistentes y únicos a nivel mundial para los conjuntos de datos depositados. 
 
-Por otro lado, los metadatos son información sobre los datos. Los archivos comunes poseen metadatos automáticos, por ejemplo, Microsoft Word registra el creador y la fecha. Los principios FAIR, señalan la importancia de incluir metadatos generosos y extensos, incluida información descriptiva sobre el contexto, la calidad y condición, o las características de los datos. En ciencias sociales es importante entregar información sobre la muestra y el proceso de recopilación de datos, así como cualquier información útil para que el investigador que recurra a ellos pueda tomar decisiones correctas.
+Por otro lado, los metadatos son información sobre los datos. Los archivos comunes poseen metadatos automáticos. Los principios FAIR, señalan la importancia de incluir metadatos generosos y extensos, incluida información descriptiva sobre el contexto, la calidad y condición, o las características de los datos. En ciencias sociales es importante entregar información sobre la muestra y el proceso de recopilación de datos, así como cualquier información útil para que el investigador que recurra a ellos pueda tomar decisiones correctas.
 
 Finalmente, junto con los identificadores y los metadatos, para que los datos sean fáciles de encontrar es necesario que estén disponibles en algún recurso de búsqueda. Google es el recurso de búsqueda más conocido. Para los datos de ciencias sociales es importante que estas bases de datos se encuentren disponibles en buscadores de instituciones de investigación o bibliotecas.
 
@@ -78,7 +78,7 @@ Esto significa que los identificadores permiten la redirección a una página we
 
 Este sub-punto refiere a que la forma en que se puede acceder a la pagina web mediante el identificador es universal, es decir, cualquier persona con un computador e internet puede acceder. Lo contrario a esto sería dejar el documento en un sitio web que sea pagado o que no esté disponible a nivel mundial.
 
-* A1.2  El protocolo permite un procedimiento de autenticación y autorización, cuando sea necesario
+* A1.2  El protocolo permite un procedimiento de identificación y autorización, cuando sea necesario
 
 Además, el modo por el cual se accede a los datos mediante el identificador puede tener algunas solicitudes o exigencias para el usuario. Así, FAIR no es sinónimo de OpenData, pues se puede tener un dato altamente restringido por distintas razones, pero si se especifican bien las condiciones para su acceso, entonces un dato no “abierto” puede ser FAIR.
 
@@ -89,7 +89,7 @@ Suele ocurrir que los datos en internet desaparecen por que mantenerlos implica 
 
 __Interoperables__ 
 
-Los datos normalmente deben integrarse con otros datos. Además, los datos deben interoperar con distintas aplicaciones o flujos de trabajo para análisis, almacenamiento y procesamiento. Para que esto sea posible, es necesario que los datos se encuentren en formatos que sean legibles y trabajables por distintos softwares. 
+Los datos normalmente deben integrarse con otros datos. Además, los datos deben interoperar con distintas aplicaciones o flujos de trabajo para análisis, almacenamiento y procesamiento. Para que esto sea posible, es necesario que los datos se encuentren en formatos que sean legibles y trabajables por distintos software. 
 
 * I1. Los datos y metadatos utilizan un lenguaje formal, accesible, compartido y de amplia aplicación para la representación del conocimiento.
 
@@ -192,7 +192,7 @@ En un documento de apoyo para investigadores la @ec_fair_2016, a modo de síntes
 * Para ser cubierto en el contexto de la revisión de ética, sección de ética de DoA y ética entregables. Incluya referencias y aspectos técnicos relacionados.
 
 6. Otro
-* Consulte otros procedimientos nacionales / financiadores / sectoriales / departamentales para la gestión de datos.
+* Consulte otros procedimientos nacionales / de financiamiento / sectoriales / departamentales para la gestión de datos.
 
 
 ### Experiencias internacionales sobre el almacenamiento de datos de investigación

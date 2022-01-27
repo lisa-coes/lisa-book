@@ -6,6 +6,6 @@ A lo largo de este libro se han señalado las principales herramientas que permi
 
 Se hace necesario avanzar en una mayor divulgación de estas prácticas y herramientas para así lograr hacer de ellas una experiencia cotidiana dentro de la investigación en las Ciencias Sociales empíricas. De esta forma, se podrán elaborar investigaciones más confiables que erradiquen las prácticas antiéticas a lo largo de todo el proceso de investigación.
 
-Finalmente, nuestra aspiración es que este trabajo quede abierto y expuesto a la crítica, comentarios y propuestas. Por esta razón es que, si bien no se ha seguido un proceso de investigación con un diseño de investigación, recopilación de datos y análisis de resultados, el texto que constituye a este libro se encuentra en un repositorio público (https://github.com/lisa-coes/lisa-book). De este modo, quien se interese por revisar, replicar o corregir lo que se expone en este libro podrá hacerlo con la mayor facilidad y transparencia posible.
+Finalmente, nuestra aspiración es que este trabajo quede abierto a comentarios, propuestas, sugerencias y revisiones. Por esta razón es que, si bien no se ha seguido un proceso tradicional de investigación con un diseño de investigación, recopilación de datos y análisis de resultados, el texto que constituye a este libro se encuentra en un repositorio público (https://github.com/lisa-coes/lisa-book). De este modo, quien se interese por revisar, replicar o corregir lo que se expone en este libro podrá hacerlo con la mayor facilidad y transparencia posible.
 
 
