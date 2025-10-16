@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "lisa-book"
+  author: "Laboratorio de Investigación Social Abierta"
+  date: "11/01/2025"
+  chapters:
+    - index.qmd
+    - 01-intro.qmd
+    - 02-diseno-transparente.qmd
+    - 03-datos-abiertos.qmd
+    - 04-analisis-reproducible.qmd
+    - 05-publicaciones-libres.qmd
+    - 06-conclusion.qmd
+    - 07-references.qmd
+
+bibliography: input\bib\lisacoes.bib
+lang: es
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

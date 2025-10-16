@@ -1,0 +1,11 @@
+h2:herramientas-para-los-análisis-reproducibles Herramientas para los análisis reproducibles
+h3:estructura-del-proyecto Estructura del proyecto
+fig:scenarios Flujo de trabajo reproducible.
+h4:carpeta-raíz Carpeta raíz
+h4:datos Datos
+h4:métodos Métodos
+h4:resultados Resultados
+h3:texto-plano-y-documentos-dinámicos Texto plano y documentos dinámicos
+h3:control-de-versiones Control de versiones
+h3:prácticas-de-código Prácticas de código
+
