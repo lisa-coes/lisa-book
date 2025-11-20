@@ -28,7 +28,7 @@ Entonces, retomando la distinción clave entre lo que entendemos por **reproduci
 ```{r}
 #| label: fig-espectro
 #| echo: false
-#| fig-cap: "Espectro de Reproducibilidad. Traducción propia en base a @peng_Reproducible_2011"
+#| fig-cap: "Espectro de Reproducibilidad. Traducción propia en base a @peng_reproducible_2011"
 #| fig-align: center
 #| out-width: 75%
 

@@ -6,10 +6,10 @@
 %
 \documentclass[
   spanish,
-  letterpaper,
-  DIV=11,
-  numbers=noendperiod]{scrreprt}
+  a4paper,
+  oneside]{scrbook}
 \usepackage{xcolor}
+\usepackage[top=25mm,bottom=25mm,left=30mm,right=20mm]{geometry}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{5}
 \usepackage{iftex}
@@ -162,7 +162,6 @@
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
 \usepackage{xcolor}
-\KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
 \makeatother
@@ -215,7 +214,7 @@
   pdfauthor={Laboratorio de Investigación Social Abierta},
   pdflang={es},
   colorlinks=true,
-  linkcolor={blue},
+  linkcolor={Maroon},
   filecolor={Maroon},
   citecolor={Blue},
   urlcolor={Blue},
@@ -227,15 +226,11 @@ reproducibilidad, transparencia y apertura}
 \author{Laboratorio de Investigación Social Abierta}
 \date{2025-11-01}
 \begin{document}
+\frontmatter
 \maketitle
 
-\renewcommand*\contentsname{Tabla de contenidos}
-{
-\hypersetup{linkcolor=}
-\setcounter{tocdepth}{2}
-\tableofcontents
-}
 
+\mainmatter
 \bookmarksetup{startatroot}
 
 \chapter*{Presentación}\label{presentaciuxf3n}
@@ -1830,8 +1825,7 @@ investigación política y social (ICPSR), el manual de Autoevaluación
 para proveedores de repositorios abiertos (RISE) del Digital Curation
 Center (DDC) (DDC 2017), los planes europeos de manejo de datos (DMP) y
 los consejos de distintos investigadores tanto para datos cuantitativos
-como cualitativos (CCSDS 2012;
-\textbf{kapiszewski\_transparency\_2019?}).
+como cualitativos (CCSDS 2012; Kapiszewski y Karcher 2021).
 
 Para publicar los datos de investigación proponemos los siguientes tres
 momentos:
@@ -1850,7 +1844,7 @@ registro del proceso por el cual llegaron a los códigos utilizados para
 la categorización de la información. Además, esto puede ser
 complementado con la descripción de las discusiones que surgieron entre
 el equipo de investigación para establecer tales códigos y el esquema de
-análisis (\textbf{kapiszewski\_transparency\_2019?}).
+análisis (Kapiszewski y Karcher 2021).
 
 Igualmente necesario es cambiar en el texto y/o audio lo que sea
 necesario para que los sujetos de investigación no puedan ser
@@ -2528,7 +2522,7 @@ caracterizar a una publicación como reproducible. \footnote{En la figura
 }
 
 \caption{\label{fig-espectro}Espectro de Reproducibilidad. Traducción
-propia en base a (\textbf{peng\_Reproducible\_2011?})}
+propia en base a Peng (2011)}
 
 \end{figure}%
 
@@ -4225,8 +4219,6 @@ modo, quien se interese por revisar, replicar o corregir lo que se
 expone en este libro podrá hacerlo con la mayor facilidad y
 transparencia posible.
 
-W
-
 \bookmarksetup{startatroot}
 
 \chapter*{References}\label{references}
@@ -4564,6 +4556,12 @@ the {Prevalence} of {Questionable Research Practices With Incentives}
 for {Truth Telling}»}. \emph{Psychological Science} 23 (5): 524-32.
 \url{https://doi.org/10.1177/0956797611430953}.
 
+\bibitem[\citeproctext]{ref-kapiszewski_transparency_2021}
+Kapiszewski, Diana, y Sebastian Karcher. 2021. {«Transparency in
+{Practice} in {Qualitative Research}»}. \emph{PS: Political Science \&
+Politics} 54 (2): 285-91.
+\url{https://doi.org/10.1017/S1049096520000955}.
+
 \bibitem[\citeproctext]{ref-kerr_harking_1998}
 Kerr, Norbert L. 1998. {«{HARKing}: {Hypothesizing After} the {Results}
 Are {Known}»}. \emph{Personality and Social Psychology Review} 2 (3):
@@ -4829,6 +4827,7 @@ Intellectual Property?} WIPO. Switzerland.
 \end{CSLReferences}
 
 
+\backmatter
 
 
 \end{document}

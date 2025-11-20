@@ -6,6 +6,11 @@ book:
   title: "Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura"
   author: "Laboratorio de Investigación Social Abierta"
   date: "11/01/2025"
+  downloads: 
+    - pdf
+  search: true
+  repo-actions: []
+  page-navigation: true
   chapters:
     - index.qmd
     - 01-intro.qmd
@@ -22,11 +27,36 @@ lang: es
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: cosmo               # Cualquier tema Bootswatch (journal, litera, etc.)
+    toc: true                   
+    toc-depth: 3
+    toc-location: right
+    number-sections: true
+    code-copy: true              # Boton copiar codigo
+    code-tools: true             # Menu con toggles para mostrar/ocultar codigo
+    df-print: paged      
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - includes/justify.html      
   pdf:
-    documentclass: scrreprt
+    pdf-engine: xelatex          # Requiere LaTeX con soporte para fuentes OpenType
+    toc: false                   # Generamos TOC/LOF/LOT manualmente en title-pdf.tex
+    lof: false
+    lot: false
     keep-tex: true
+    documentclass: scrbook       # Usa report/book si prefieres otra estructura
+    classoption:
+      - oneside
+    papersize: a4                # Cambia a letter si trabajas con papel tamano carta
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=30mm
+      - right=20mm
+    colorlinks: true
+    number-sections: true
     
 
 
