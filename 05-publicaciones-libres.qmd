@@ -156,8 +156,10 @@ Con la invención de Internet también aumentaron las oportunidades de divulgaci
 | Contador de descargas                  | Solo Algunos               | Quizás                    | Quizás                     | Si                         |
 | Contribuye al futuro de la comunicación académica abierta | No      | Débilmente                | Quizás                     | Si                         |
 Table: `r as.character(paste("(\\#tab:coom)", "Tabla comparativa del uso de SocArXiv versus otros sitios"))`
+</div>
 
 <div style="text-align: center"> Fuente: Traducción propia a partir de tabla comparativa de [SocArXiv](https://socopen.org/frequently-asked-questions/){target="_blank"}.
+</div>
 
 ## Herramientas para publicar
 
@@ -165,13 +167,15 @@ Imagine que usted es parte de un equipo de investigación que finalizó un estud
 
 ### El camino hacia la publicación
 
-Todo proyecto de investigación tiene la potencialidad de ser publicado pero, como ya se ha ido ilustrando en las secciones anteriores, publicar de manera abierta trae consigo beneficios de visibilidad e impacto social. Para desarrollar una estrategia eficaz de publicación abierta hay que seguir un flujo que se divide tres pasos, como se ilustra en la Figura N° \@ref(fig:flujo). Este flujo inicia con la elección de la revista de Acceso Abierto, sigue con la identificación de la etapa del artículo y finaliza con la selección del servicio de publicación.
+Todo proyecto de investigación tiene la potencialidad de ser publicado pero, como ya se ha ido ilustrando en las secciones anteriores, publicar de manera abierta trae consigo beneficios de visibilidad e impacto social. Para desarrollar una estrategia eficaz de publicación abierta hay que seguir un flujo que se divide tres pasos, como se ilustra en la Figura N° @fig-flujo. Este flujo inicia con la elección de la revista de Acceso Abierto, sigue con la identificación de la etapa del artículo y finaliza con la selección del servicio de publicación.
 
 ```{r flujo, echo=FALSE, fig.cap="Guía paso a paso para publicar libre (Elaboración propia).", fig.align = 'center', out.width = '100%'}
+#| label: fig-flujo
+
 knitr::include_graphics(path = "images/flujo_lisa.png")
 ```
 
-#### Paso 1: Pre-rint (Pre-publicación) {-}
+#### Paso 1: Pre-print (Pre-publicación) {-}
 Es lo que conocemos comúnmente como el borrador del artículo, el mismo que enviamos al proceso de revisión por pares. Este documento tiene la posibilidad de ser publicado en cualquier repositorio de ruta verde (*pre-print server*) con el objetivo de ser difundido abiertamente para permitir su disponibilidad inmediata.
 
 La gran particularidad de este método de pre-publicación es que se obtiene un código alfanumérico que identifica y ubica el documento dentro de Internet, esto se conoce como un *Digital Object Identifier - DOI* (Identificador de Objeto Digital en español), por lo que se convierte de manera inmediata en un documento referenciable y sin posibilidad de plagio. Algunas personas tendrán el temor de que al pre-publicar un informe de investigación, las posibilidades de que el documento sea aceptado y posteriormente publicado en una revista es menor. Sin embargo, los datos empíricos demuestran que en realidad esto no es un impedimento para su posterior publicación. En la investigación de @abdill_tracking_2019 que analizó cerca de 37.648 pre-print alojados en bioRxiv -una extensión centrada en biología del sitio ArXiv-, una de las grandes conclusiones tiene que ver con que la tasa de preprints publicados en 2018 alcanzó un máximo de 2,100 por mes y, de manera más específica, en la Figura N° \@ref(fig:preprint) se puede identificar a las diez principales revistas que han publicado la mayor cantidad de pre-print. En esta figura, cada barra indica la cantidad de documentos publicados por cada revista. 
@@ -202,7 +206,7 @@ knitr::include_graphics(path = "images/colores_sherpa.png")
 
 El mundo del Open Access es bastante grande y en ocasiones costoso, toda revista de ruta dorada posee costos de APC que deben ser financiados por los investigadores o sus patrocinantes, lo que se vuelve una barrera económica para los equipos de investigación que deseen abrir sus publicaciones, por ello el proceso de autoarchivo surge como una alternativa al alcance de cualquiera y, en su mayoría, cientistas sociales utilizan la vía verde y la diamante para depositar sus manuscritos o tesis en repositorios como [Dialnet](https://soporte.dialnet.unirioja.es/portal/es/kb/articles/el-acceso-abierto-a-la-literatura-cient%C3%ADfica){target="_blank"}, [Latindex](https://www.latindex.org/latindex/descripcion){target="_blank"}, [Scielo](https://scielo.org/es/sobre-el-scielo/declaracion-de-accesso-abierto/){target="_blank"}, [Redalyc](https://www.redalyc.org/){target="_blank"} y [CLACSO](http://biblioteca.clacso.edu.ar/accesoabierto/){target="_blank"}. Adicionalmente, existen revistas de ciencias sociales cuyo foco se encuentra en el diseño de metodologías de investigación cualitativa y que, además, poseen un alto factor de impacto, como las resumidas en la Tabla N° \@ref(tab:revc), pues son indexadas a Scopus [@ulloa_tendencias_2017]. 
 
-<div style="text-align: left">
+
 | Revista                                                                                                  | País                    | Asunto o Categoría                     |
 |----------------------------------------------------------------------------------------------------------|-------------------------|----------------------------------------|
 | [Qualitative Sociology Review](http://www.qualitativesociologyreview.org){target="_blank"}               | Polonia                 | Ciencias Sociales diversas             |
@@ -210,7 +214,7 @@ El mundo del Open Access es bastante grande y en ocasiones costoso, toda revista
 | [Forum Qualitative Sozialforscung](https://www.qualitative-research.net/index.php/fqs ){target="_blank"} | Alemania                | Ciencias Sociales diversas             |
 Table: `r as.character(paste("(\\#tab:revc)", "Descripción de Revistas de Open Access de orden Cualitativo"))`
 
-<div style="text-align: center"> 
+
 
 Fuente: Adaptación propia a partir de tabla extraída del estudio de @ulloa_tendencias_2017.
 
@@ -226,7 +230,7 @@ El modelo de suscripción se presenta como un muro de pago que al ser costeado p
 
 En la nueva era digital, el modelo de suscripción sigue estando presente, pero convive con el paradigma del open access, el que intenta superar las barreras de pago poniendo la responsabilidad de la apertura del conocimiento en el propio autor. Algunos repositorios de ruta dorada e híbrida solicitan un pago de APC para publicar en acceso abierto, esto corresponde a un modelo de negocios cuyo propósito es financiar los gastos asociados a la gestión de la publicación. En estricto rigor, no existe un monto estandarizado del APC, por lo que su costo dependerá únicamente de la revista. Su valor fluctúa según el pago de impuestos adicionales, lo que se puede evidenciar en la Tabla N° \@ref(tab:precio). Según @socha_cuanto_2018, de las revistas de mayor renombre en la industria académica como [Elsevier](https://www.elsevier.com/open-science){target="_blank"}, [Springer](https://www.springer.com/la/open-access){target="_blank"}, [Wiley](https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/index.html){target="_blank"} y [Taylor & Francis](https://authorservices.taylorandfrancis.com/publishing-open-access/){target="_blank"} se han adscrito al acceso abierto cobrando a los autores un costo de APC pero manteniendo su modelo de suscripción. 
 
-<div style="text-align: left">
+
 | Repositorio      | APC mínimo  | APC máximo  | ¿Open Acces o Híbrido? |
 |------------------|-------------|-------------|------------------------|
 | ELSEVIER         | $100        | $5.000      | Híbrido                |
@@ -236,6 +240,8 @@ En la nueva era digital, el modelo de suscripción sigue estando presente, pero 
 Table: `r as.character(paste("(\\#tab:precio)", "Fluctuación del precio en dolares del APC en las principales revistas científicas"))`
 
 <div style="text-align: center"> Fuente: Adaptación propia a partir de información recopilada en [University of Cambridge (2018)](https://www.openaccess.cam.ac.uk/publishing-open-access/how-much-do-publishers-charge-open-access){target="_blank"}.
+
+</div>
 
 @spinak_revistas_2019 indica que tanto en Estados Unidos como en países Europeos ha habido un aumento exponencial del costo del APC a través de los años. A modo de ejemplo, el *APC promedio de 319 revistas* asociadas a las editoriales *BMC, Frontiers, MDPI e Hindawi* aumentó entre 2,5 y 6 veces la inflación entre el 2012 y el 2018, al alero de un considerable crecimiento en la cantidad de volúmenes que paso de 58.007 hasta 127.528 en aquellos años. Los editores han admitido que el costo del APC lo fijan según el valor económico de la revista que es atribuido según el valor de impacto.
 
