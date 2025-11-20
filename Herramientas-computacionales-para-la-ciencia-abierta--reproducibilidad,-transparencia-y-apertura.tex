@@ -211,7 +211,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={lisa-book},
+  pdftitle={Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura},
   pdfauthor={Laboratorio de Investigación Social Abierta},
   pdflang={es},
   colorlinks=true,
@@ -222,7 +222,8 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\title{lisa-book}
+\title{Herramientas computacionales para la ciencia abierta:
+reproducibilidad, transparencia y apertura}
 \author{Laboratorio de Investigación Social Abierta}
 \date{2025-11-01}
 \begin{document}
@@ -242,7 +243,8 @@
 
 \markboth{Presentación}{Presentación}
 
-Libro colaborativo del Laboratorio de Investigación Social Abierta
+Libro Herramientas computacionales para la ciencia abierta:
+reproducibilidad, transparencia y apertura
 
 \bookmarksetup{startatroot}
 
@@ -535,11 +537,6 @@ participantes del estudio, y entre paréntesis el número de casos de la
 muestra. Los guiones significan que este estudio no incluyó esa práctica
 en el cuestionario.
 
-\begin{verbatim}
-Warning in styling_latex_scale(out, table_info, "down"): Longtable cannot be
-resized.
-\end{verbatim}
-
 \begin{table}
 
 \caption{\label{tbl-tabqrp2}Porcentajes de prevalencia por QRP según
@@ -547,9 +544,9 @@ distintos trabajos}
 
 \centering{
 
-\begingroup\fontsize{10}{12}\selectfont
+\centering\begingroup\fontsize{10}{12}\selectfont
 
-\begin{longtabu} to \linewidth {>{\raggedright\arraybackslash}p{12em}>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X>{\centering}X}
+\begin{tabular}{>{\raggedright\arraybackslash}p{12em}ccccccc}
 \toprule
 Práctica & Psicología¹ & Psicología² & Psicología³ & Ecología⁴ & Evolución⁴ & Educación⁵ & Comunicación⁶\\
 \midrule
@@ -568,7 +565,13 @@ Mal orientar respecto a efectos sociodemográficos & 3 (499) & 3 (223) & 4 (232)
 Esconder problemas & - & - & - & - & - & 24 (889) & -\\
 Esconder imputaciones & 1 (495) & 2 (220) & 1 (232) & 5 & 2 & 10 (898) & 9\\
 \bottomrule
-\end{longtabu}
+\multicolumn{8}{l}{\textsuperscript{} ¹ John et al. (2012)}\\
+\multicolumn{8}{l}{\textsuperscript{} ² Agnoli et al. (2017)}\\
+\multicolumn{8}{l}{\textsuperscript{} ³ Rabelo et al. (2020)}\\
+\multicolumn{8}{l}{\textsuperscript{} ⁴ Fraser et al. (2018)}\\
+\multicolumn{8}{l}{\textsuperscript{} ⁵ Makel \& Plucker (2021)}\\
+\multicolumn{8}{l}{\textsuperscript{} ⁶ Bakker et al. (2020)}\\
+\end{tabular}
 \endgroup{}
 
 }
@@ -3683,23 +3686,27 @@ pero, como ya se ha ido ilustrando en las secciones anteriores, publicar
 de manera abierta trae consigo beneficios de visibilidad e impacto
 social. Para desarrollar una estrategia eficaz de publicación abierta
 hay que seguir un flujo que se divide tres pasos, como se ilustra en la
-Figura N° @ref(fig:flujo). Este flujo inicia con la elección de la
-revista de Acceso Abierto, sigue con la identificación de la etapa del
-artículo y finaliza con la selección del servicio de publicación.
+Figura N° Figura~\ref{fig-flujo}. Este flujo inicia con la elección de
+la revista de Acceso Abierto, sigue con la identificación de la etapa
+del artículo y finaliza con la selección del servicio de publicación.
 
-\begin{figure}[H]
+\begin{figure}
 
-{\centering \includegraphics[width=1\linewidth,height=\textheight,keepaspectratio]{images/flujo_lisa.png}
+\centering{
+
+\includegraphics[width=1\linewidth,height=\textheight,keepaspectratio]{images/flujo_lisa.png}
 
 }
 
-\caption{Guía paso a paso para publicar libre (Elaboración propia).}
+\caption{\label{fig-flujo}Guía paso a paso para publicar libre
+(Elaboración propia).}
 
 \end{figure}%
 
-\subsubsection*{Paso 1: Pre-rint
-(Pre-publicación)}\label{paso-1-pre-rint-pre-publicaciuxf3n}
-\addcontentsline{toc}{subsubsection}{Paso 1: Pre-rint (Pre-publicación)}
+\subsubsection*{Paso 1: Pre-print
+(Pre-publicación)}\label{paso-1-pre-print-pre-publicaciuxf3n}
+\addcontentsline{toc}{subsubsection}{Paso 1: Pre-print
+(Pre-publicación)}
 
 Es lo que conocemos comúnmente como el borrador del artículo, el mismo
 que enviamos al proceso de revisión por pares. Este documento tiene la

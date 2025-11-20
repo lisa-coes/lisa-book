@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "lisa-book"
+  title: "Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura"
   author: "Laboratorio de Investigación Social Abierta"
   date: "11/01/2025"
   chapters:
@@ -26,6 +26,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+    keep-tex: true
+    
 
 
 

@@ -67,7 +67,6 @@ Los estudios mencionados arriba corresponden a la evidencia existente sobre la m
 #| echo: false
 #| tbl-cap: "Porcentajes de prevalencia por QRP según distintos trabajos"
 
-# Crear la tabla de datos
 qrp_data <- data.frame(
   Practica = c(
     "Omitir estudios o variables no significativas",
@@ -92,29 +91,36 @@ qrp_data <- data.frame(
   Comunicacion = c("60", "64", "-", "23", "34", "46", "45", "46", "24", "-", "-", "9")
 )
 
-# Crear la tabla con kable y kableExtra
-kable(qrp_data, 
-      col.names = c("Práctica", 
-                    "Psicología¹", 
-                    "Psicología²", 
-                    "Psicología³", 
-                    "Ecología⁴", 
-                    "Evolución⁴", 
-                    "Educación⁵", 
-                    "Comunicación⁶"),
-      align = c("l", rep("c", 7))) %>%
-  kable_styling(bootstrap_options = c("striped", "condensed"), 
-                full_width = TRUE,
-                font_size = 10,
-                latex_options = c("scale_down", "HOLD_position")) %>%
-  column_spec(1, width = "12em") %>%
-  add_footnote(c("¹ John et al. (2012)", 
-                 "² Agnoli et al. (2017)", 
-                 "³ Rabelo et al. (2020)",
-                 "⁴ Fraser et al. (2018)",
-                 "⁵ Makel & Plucker (2021)",
-                 "⁶ Bakker et al. (2020)"),
-               notation = "none")
+kable(
+  qrp_data,
+  format    = "latex",           # explícito para PDF
+  booktabs  = TRUE,
+  col.names = c("Práctica", 
+                "Psicología¹", 
+                "Psicología²", 
+                "Psicología³", 
+                "Ecología⁴", 
+                "Evolución⁴", 
+                "Educación⁵", 
+                "Comunicación⁶"),
+  align     = c("l", rep("c", 7))
+) %>%
+  kable_styling(
+    bootstrap_options = c("striped", "condensed"),  # solo HTML, no molesta
+    full_width = FALSE,                             # 
+    font_size  = 10,
+    latex_options = c("HOLD_position")              # 
+  ) %>%
+  column_spec(1, width = "12em") %>%                # si aún falla, comenta esta línea
+  add_footnote(
+    c("¹ John et al. (2012)", 
+      "² Agnoli et al. (2017)", 
+      "³ Rabelo et al. (2020)",
+      "⁴ Fraser et al. (2018)",
+      "⁵ Makel & Plucker (2021)",
+      "⁶ Bakker et al. (2020)"),
+    notation = "none"
+  )
 ```
 
 Como se observa en la @tbl-tabqrp2, las encuestas sobre QRP han incluido varias prácticas relativas al tratamiento y análisis de los datos. No obstante, consideramos que existen tres términos que, en su mayoría, logran sintetizar esta tabla y que están relacionados a la transparencia en los diseños de investigación. Estas son: 1) los sesgos de publicación, 2) el _p-hacking_ y el 3) _HARKing_.
