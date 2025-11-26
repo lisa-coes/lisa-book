@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4&nbsp; Análisis reproducible – Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura</title>
+<title>Análisis reproducible – Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,14 +79,13 @@ div.csl-indent {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./05-publicaciones-libres.html" rel="next">
-<link href="./03-datos-abiertos.html" rel="prev">
+<link href="./04a-analisis-reproducible.html" rel="next">
+<link href="./03b-datos-abiertos.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -96,7 +95,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-806c95bdecf85540f7beab145150c922.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b47a2ad12f83ad34d83725ae28ab3c75.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -136,15 +135,11 @@ p {
   text-justify: inter-word;
 }
 </style>
-<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
-
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
-
 
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -153,7 +148,7 @@ p {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-analisis-reproducible.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Análisis reproducible</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-analisis-reproducible.html">Análisis reproducible</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -165,8 +160,11 @@ p {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/cover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura</a> 
         <div class="sidebar-tools-main">
@@ -193,34 +191,108 @@ p {
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./02-diseno-transparente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Diseño transparente</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-diseno-transparente.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Diseño transparente</span></span></a>
+  <a href="./02a-diseno-transparente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Sobre la transparencia</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-datos-abiertos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Datos abiertos</span></span></a>
+  <a href="./02b-diseno-transparente.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Herramientas para los diseños transparentes</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./03-datos-abiertos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Datos abiertos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-analisis-reproducible.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Análisis reproducible</span></span></a>
+  <a href="./03a-datos-abiertos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ventajas de la apertura de datos de investigación social</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publicaciones libres</span></span></a>
+  <a href="./03b-datos-abiertos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Consejos para la Apertura de Datos de Investigación Social</span></span></a>
   </div>
 </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./04-analisis-reproducible.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Análisis reproducible</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04a-analisis-reproducible.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">¿Qué se ha hecho?</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./05-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Publicaciones libres</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05a-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Propiedad intelectual</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05b-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Formas open access</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05c-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Herramientas para publicar</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05d-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-conclusion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Conclusión</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Conclusión</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -234,26 +306,15 @@ p {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#qué-se-ha-hecho" id="toc-qué-se-ha-hecho" class="nav-link active" data-scroll-target="#qué-se-ha-hecho"><span class="header-section-number">4.1</span> ¿Qué se ha hecho?</a>
-  <ul class="collapse">
-  <li><a href="#berkeley-initiative-for-transparency-in-the-social-sciences-bitss" id="toc-berkeley-initiative-for-transparency-in-the-social-sciences-bitss" class="nav-link" data-scroll-target="#berkeley-initiative-for-transparency-in-the-social-sciences-bitss"><span class="header-section-number">4.1.1</span> Berkeley Initiative for Transparency in the Social Sciences (BITSS)</a></li>
-  <li><a href="#proyecto-tier-teaching-integrity-in-empirical-research" id="toc-proyecto-tier-teaching-integrity-in-empirical-research" class="nav-link" data-scroll-target="#proyecto-tier-teaching-integrity-in-empirical-research"><span class="header-section-number">4.1.2</span> Proyecto TIER (Teaching Integrity in Empirical Research)</a></li>
-  <li><a href="#uk-reproducibility-network-ukrn" id="toc-uk-reproducibility-network-ukrn" class="nav-link" data-scroll-target="#uk-reproducibility-network-ukrn"><span class="header-section-number">4.1.3</span> UK Reproducibility Network (UKRN)</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Análisis reproducible</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Análisis reproducible</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
 
 
@@ -272,7 +333,7 @@ p {
 
 <p>En la discusión sobre los problemas de transparencia en torno a los procedimientos de investigación, se vuelve necesario precisar de qué manera es entendido el concepto de reproducibilidad en la ciencia. En esta línea, la laxitud con que se ha empleado el término ha llevado a definiciones poco claras, lo cual ha generado una tendencia a confundir lo que refiere a la transparencia de un proceso único que ya ha sido realizado, con un proceso nuevo y que puede realizarse de manera reiterativa, obteniendo los mismos resultados. Por este motivo, esta sección propone dar luces respecto a cómo entendemos el concepto de reproducibilidad, en contraste con el de replicabilidad en la ciencias sociales.</p>
 <p>La discusión en torno a cómo se entiende la <strong>reproducibilidad</strong>, habitualmente lleva al contraste respecto al concepto de <strong>replicabilidad</strong>. Al respecto <span class="citation" data-cites="earth_reproducibility_2019">Earth y Behavioral (<a href="07-references.html#ref-earth_reproducibility_2019" role="doc-biblioref">2019</a>)</span> mencionan que, por un lado, con el incremento de las herramientas computacionales a principios de los años 90’, el término de “investigación reproducible” era concebido como las investigaciones que proveían un compendio detallado de la documentación, código y datos que permitieran obtener los mismos resultados publicados por los autores, enfatizando que los análisis fueran transparentes y claros con el objetivo de ser verificados por sus pares. Por otro lado, los autores sostienen que, en otras disciplinas, el concepto de reproducibilidad era asociado a investigaciones independientes entre sí en términos de los datos empleados, los materiales, métodos e implementación de un estudio, lo cual estaría orientado a robustecer o cuestionar la evidencia previa <span class="citation" data-cites="earth_reproducibility_2019">(<a href="07-references.html#ref-earth_reproducibility_2019" role="doc-biblioref">Earth y Behavioral 2019</a>, pp 33-34)</span>. Actualmente, a esta última práctica se la entiende como replicabilidad de una investigación y no debe ser confundida con el concepto de reproducibilidad <span class="citation" data-cites="barba_terminologies_2018">(<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">Barba 2018</a>)</span>.</p>
-<p><span class="citation" data-cites="barba_terminologies_2018">Barba (<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">2018</a>)</span> sugiere que la confusión entre reproducibilidad y replicabilidad ha contribuido a obstaculizar las prácticas en ambas dimensiones. En una revisión reciente realizada por la autora se han identificado al menos tres escenarios o versiones de cómo se entienden ambos conceptos en una amplia gama de disciplinas que van desde las ciencias sociales hasta estudios clínicos en las ciencias médicas. El primer escenario (A), y a la vez el más común, es donde el uso de ambos conceptos es indistinto, contribuyendo a la ya mencionada confusión. El segundo escenario (B1) es cuando la reproducibilidad es entendida como la situación en que los datos originales y el código de análisis son empleados para <strong>regenerar</strong> los resultados originales, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes utilizan datos nuevos para obtener los mismos resultados que la investigación previa. Finalmente, un tercer escenario (B2) es cuando la reproducibilidad es entendida cuando investigadores o equipos independientes obtienen los mismos resultados empleando sus propios datos y métodos, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes llegan a los mismos resultados empleando los artefactos digitales <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> originales del autor con menores o mayores modificaciones, los cuales han sido puestos previamente a disposición de sus pares. La Figura N° @ref(fig:scenarios) ilustra cómo podemos entender los escenarios B1 y B2 en relación a la distinción entre reproducibilidad y replicabilidad. El color rojo, tanto en los datos como en los métodos, indica que los componentes empleados son idénticos a los del estudio original. Por otro lado, el color azul indica que tanto los datos como los métodos son distintos a los del estudio original. Finalmente, el color morado en los métodos se entiende como un punto intermedio y refiere a cuando se han empleado métodos que siguen las indicaciones del estudio original, pero que han incorporado modificaciones, nuevos métodos u otras innovaciones metodológicas (p.&nbsp;ej. métodos nuevos, pruebas de robustez u otros).</p>
+<p><span class="citation" data-cites="barba_terminologies_2018">Barba (<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">2018</a>)</span> sugiere que la confusión entre reproducibilidad y replicabilidad ha contribuido a obstaculizar las prácticas en ambas dimensiones. En una revisión reciente realizada por la autora se han identificado al menos tres escenarios o versiones de cómo se entienden ambos conceptos en una amplia gama de disciplinas que van desde las ciencias sociales hasta estudios clínicos en las ciencias médicas. El primer escenario (A), y a la vez el más común, es donde el uso de ambos conceptos es indistinto, contribuyendo a la ya mencionada confusión. El segundo escenario (B1) es cuando la reproducibilidad es entendida como la situación en que los datos originales y el código de análisis son empleados para <strong>regenerar</strong> los resultados originales, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes utilizan datos nuevos para obtener los mismos resultados que la investigación previa. Finalmente, un tercer escenario (B2) es cuando la reproducibilidad es entendida cuando investigadores o equipos independientes obtienen los mismos resultados empleando sus propios datos y métodos, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes llegan a los mismos resultados empleando los artefactos digitales <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> originales del autor con menores o mayores modificaciones, los cuales han sido puestos previamente a disposición de sus pares. La <a href="#fig-scenarios" class="quarto-xref">Figura&nbsp;<span>1</span></a> ilustra cómo podemos entender los escenarios B1 y B2 en relación a la distinción entre reproducibilidad y replicabilidad. El color rojo, tanto en los datos como en los métodos, indica que los componentes empleados son idénticos a los del estudio original. Por otro lado, el color azul indica que tanto los datos como los métodos son distintos a los del estudio original. Finalmente, el color morado en los métodos se entiende como un punto intermedio y refiere a cuando se han empleado métodos que siguen las indicaciones del estudio original, pero que han incorporado modificaciones, nuevos métodos u otras innovaciones metodológicas (p.&nbsp;ej. métodos nuevos, pruebas de robustez u otros).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div id="fig-scenarios" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
@@ -281,14 +342,14 @@ p {
 <img src="images/reproducibility.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scenarios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4.1: Escenarios B1 y B2 en reproducibilidad y replicabilidad.
+Lista de figuras&nbsp;1: Escenarios B1 y B2 en reproducibilidad y replicabilidad.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>En las ciencias sociales, el debate en torno a la investigación reproducible y la replicabilidad no ha estado ausente. Como fue reseñado en el capítulo de transparencia, existen casos icónicos en torno a prácticas cuestionables de investigación que han afectado la confianza en la investigación científica, lo cual ha contribuido a incrementar los esfuerzos por una ciencia social abierta y reproducible <span class="citation" data-cites="breznau_does_2021 nosek_promoting_2015">(<a href="07-references.html#ref-breznau_does_2021" role="doc-biblioref">Breznau 2021</a>; <a href="07-references.html#ref-nosek_promoting_2015" role="doc-biblioref">Nosek et&nbsp;al. 2015</a>)</span>. En los tres escenarios descritos por <span class="citation" data-cites="barba_terminologies_2018">Barba (<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">2018</a>)</span>, las ciencias sociales han experimentado de manera diversa el ajuste hacia una cultura de mayor apertura y precisión en torno a los problemas de la crisis de reproducibilidad, principalmente a través del estudio sistemático de dicha problemática, dentro de lo cual la psicología ha sido pionera en proveer evidencia para este debate <span class="citation" data-cites="opensciencecollaboration_estimating_2015 gilbert_comment_2016">(e.g. <a href="07-references.html#ref-opensciencecollaboration_estimating_2015" role="doc-biblioref">Open Science Collaboration 2015</a>; <a href="07-references.html#ref-gilbert_comment_2016" role="doc-biblioref">Gilbert et&nbsp;al. 2016</a>)</span>. Al respecto <span class="citation" data-cites="bishop_rein_2019">Bishop (<a href="07-references.html#ref-bishop_rein_2019" role="doc-biblioref">2019</a>)</span> sostiene que una de las principales amenazas para el progreso de la ciencia en general ha sido la falta de reproducibilidad de los resultados (<em>irreproducibility</em>), lo cual ha afectado principalmente la robustez y credibilidad de la evidencia reportada por las investigaciones, problema que también ha sido identificado en las ciencias sociales, principalmente por la falta de precisión en los procedimientos y las barreras de acceso a materiales clave del proceso de análisis <span class="citation" data-cites="freese_replication_2017">(<a href="07-references.html#ref-freese_replication_2017" role="doc-biblioref">Freese y Peterson 2017</a>)</span>.</p>
-<p>Entonces, retomando la distinción clave entre lo que entendemos por <strong>reproducibilidad</strong> y <strong>replicabilidad</strong>, en su revisión, <span class="citation" data-cites="barba_terminologies_2018">Barba (<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">2018</a>)</span> sugiere que una manera de entender y distinguir ambos conceptos de manera minimalista puede descansar en el carácter de los <em>datos</em> y los <em>métodos</em>. Al respecto <span class="citation" data-cites="nosek_promoting_2015">Nosek et&nbsp;al. (<a href="07-references.html#ref-nosek_promoting_2015" role="doc-biblioref">2015</a>)</span> sostiene que en lo que refiere a estas dos dimensiones, los niveles en que una publicación los incorpora es gradual y puede entenderse como un continuo o espectro <span class="citation" data-cites="peng_reproducible_2011">(<a href="07-references.html#ref-peng_reproducible_2011" role="doc-biblioref">Peng 2011</a>)</span> y, por tanto, el nivel en que se cumplen bajo determinados criterios nos permite definir el carácter de una investigación en términos de su reproducibilidad. Por ejemplo, la Figura N° @ref(fig:espectro) nos muestra cómo podemos caracterizar una investigación publicada en torno al acceso y vinculación entre código y datos. Por un lado, se observa que en el polo donde únicamente disponemos de la publicación, se entiende como la ausencia de reproducibilidad. Por otro lado, en la medida que incrementa el acceso a los materiales, y se explicita el enlace entre ellos, se puede caracterizar a una publicación como reproducible. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Entonces, retomando la distinción clave entre lo que entendemos por <strong>reproducibilidad</strong> y <strong>replicabilidad</strong>, en su revisión, <span class="citation" data-cites="barba_terminologies_2018">Barba (<a href="07-references.html#ref-barba_terminologies_2018" role="doc-biblioref">2018</a>)</span> sugiere que una manera de entender y distinguir ambos conceptos de manera minimalista puede descansar en el carácter de los <em>datos</em> y los <em>métodos</em>. Al respecto <span class="citation" data-cites="nosek_promoting_2015">Nosek et&nbsp;al. (<a href="07-references.html#ref-nosek_promoting_2015" role="doc-biblioref">2015</a>)</span> sostiene que en lo que refiere a estas dos dimensiones, los niveles en que una publicación los incorpora es gradual y puede entenderse como un continuo o espectro <span class="citation" data-cites="peng_reproducible_2011">(<a href="07-references.html#ref-peng_reproducible_2011" role="doc-biblioref">Peng 2011</a>)</span> y, por tanto, el nivel en que se cumplen bajo determinados criterios nos permite definir el carácter de una investigación en términos de su reproducibilidad. Por ejemplo, la <a href="#fig-espectro" class="quarto-xref">Figura&nbsp;<span>2</span></a> nos muestra cómo podemos caracterizar una investigación publicada en torno al acceso y vinculación entre código y datos. Por un lado, se observa que en el polo donde únicamente disponemos de la publicación, se entiende como la ausencia de reproducibilidad. Por otro lado, en la medida que incrementa el acceso a los materiales, y se explicita el enlace entre ellos, se puede caracterizar a una publicación como reproducible. <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div id="fig-espectro" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
@@ -297,176 +358,13 @@ Figura&nbsp;4.1: Escenarios B1 y B2 en reproducibilidad y replicabilidad.
 <img src="images/repro-spectrum.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-espectro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4.2: Espectro de Reproducibilidad. Traducción propia en base a <span class="citation" data-cites="peng_reproducible_2011">Peng (<a href="07-references.html#ref-peng_reproducible_2011" role="doc-biblioref">2011</a>)</span>
+Lista de figuras&nbsp;2: Espectro de Reproducibilidad. Traducción propia en base a <span class="citation" data-cites="peng_reproducible_2011">Peng (<a href="07-references.html#ref-peng_reproducible_2011" role="doc-biblioref">2011</a>)</span>
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 <p>Como sugieren <span class="citation" data-cites="nosek_promoting_2015">Nosek et&nbsp;al. (<a href="07-references.html#ref-nosek_promoting_2015" role="doc-biblioref">2015</a>)</span>, el problema de la ausencia o falta de reproducibilidad debe ser abordado a través de un cambio en las prácticas de investigación, para lo cual se requiere de una disposición por parte de la comunidad científica, es decir, que se le atribuya un <em>sentido</em> positivo a estas prácticas. Sin embargo, <span class="citation" data-cites="peng_reproducible_2011">Peng (<a href="07-references.html#ref-peng_reproducible_2011" role="doc-biblioref">2011</a>)</span> sostiene que una de las principales barreras para promover estas prácticas ha sido la falta de mecanismos que faciliten la distribución de la investigación reproducible, como también la poca claridad respecto de los estándares asociados a ello. Siguiendo esta autocrítica de algunos sectores dentro de la comunidad científica, dentro de los últimos años han surgido iniciativas como, por ejemplo, el Open Science Framework, al alero del <a href="https://www.cos.io/">Center for Open Science</a>, desde donde se busca contribuir con herramientas para el entrenamiento y educación de la comunidad científica en general, como también proveer de una infraestructura tecnológica que facilite la transición cultural hacia una ciencia abierta, transparente y reproducible <span class="citation" data-cites="nosek_promoting_2015">(<a href="07-references.html#ref-nosek_promoting_2015" role="doc-biblioref">Nosek et&nbsp;al. 2015</a>)</span>. Por este motivo, proponemos revisar tres iniciativas internacionales que han puesto sus esfuerzos en la promoción de estos principios, con particular atención en la reproducibilidad de la investigación científica, y en particular de las ciencias sociales empíricas cuantitativas. Dentro de estas iniciativas encontraremos esfuerzos orientados a la educación y entrenamiento, herramientas tecnológicas y fortalecimiento de redes de colaboración.</p>
-<section id="qué-se-ha-hecho" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="qué-se-ha-hecho"><span class="header-section-number">4.1</span> ¿Qué se ha hecho?</h2>
-<section id="berkeley-initiative-for-transparency-in-the-social-sciences-bitss" class="level3" data-number="4.1.1">
-<h3 data-number="4.1.1" class="anchored" data-anchor-id="berkeley-initiative-for-transparency-in-the-social-sciences-bitss"><span class="header-section-number">4.1.1</span> Berkeley Initiative for Transparency in the Social Sciences (BITSS)</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/BITSS_logo_horizontal.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Objetivos y visión</strong></p>
-<p>Esta iniciativa busca promover la credibilidad en la evidencia generada por las ciencias sociales a través de mecanismos de avanzada para la transparencia, reproducibilidad y prácticas éticas en la investigación social empírica. Desde esta premisa, se ha desarrollado y puesto a disposición de la comunidad científica una serie de herramientas en colaboración con estudiantes, investigadores, entidades académicas y fundaciones de la sociedad civil al alero de tres principios orientadores:</p>
-<ol type="1">
-<li><p>Generar evidencia en torno a problemas y soluciones a través de los investigadores y la comunidad de BITSS, quienes han liderado investigaciones meta-analíticas, con atención en las ciencias sociales.</p></li>
-<li><p>Incrementar el acceso a la enseñanza de la ciencia abierta, a través del fortalecimiento de prácticas para reconocer y conducir investigación social transparente y reproducible a través del entrenamiento de investigadores jóvenes, acceso a materiales, apoyo financiero y la consolidación de una red de colaboración.</p></li>
-<li><p>Fortalecer el ecosistema científico, estableciendo condiciones para investigadores e instituciones para contribuir a un cambio efectivo y equitativo en las normas que permitan una consolidación de una política interna orientada a la ciencia abierta y al desarrollo de protocolos en esta dirección.</p></li>
-</ol>
-<p>Desde sus inicios, se han desarrollado una serie de componentes que buscan promover y dar soluciones a los problemas de transparencia y reproducibilidad en las ciencias sociales. En particular, nos interesa destacar algunas de las contribuciones en este ámbito que serán presentadas a continuación, las cuales se pueden resumir en Evidencia, Educación y Recursos.</p>
-<p><strong>Contribución</strong></p>
-<p>En el ámbito de Evidencia, desde BITSS se ha realizado un esfuerzo por producir y sistematizar evidencia centralizadamente. En este contexto existe la <a href="https://www.bitss.org/research-library/">Research Library</a>, una base de datos de publicaciones científicas que engloba una serie de investigaciones meta-analíticas en el ámbito de las ciencias sociales, contribuyendo con un cuerpo de evidencia sistemática en torno a los problemas y soluciones sobre transparencia y reproducibilidad en las ciencias sociales sin precedentes. En este apartado, tanto los colaboradores como investigadores de BITSS ponen a disposición de la comunidad científica las investigaciones que han sido financiadas a través de las Social Science Meta-Analysis and Research Transparency (<a href="https://www.bitss.org/ssmart-grants/">SSMART</a>) grants, las cuales constituyen fondos orientados a contribuir a la investigación empírica en torno a la transparencia y reproducibilidad en disciplinas como la economía, ciencia política, psicología y ciencias sociales afines.</p>
-<p>Desde la Educación y Entrenamiento podemos identificar la articulación de una serie de <em>Training activities</em> desarrolladas por BITSS. Dentro de los objetivos de estas actividades encontramos dos aspectos que se buscan abordar desde esta dimensión. Por un lado, se encuentra el promover una visión crítica de los investigadores en las ciencias sociales, esto considera un entendimiento de los principales problemas asociados a la investigación social de calidad al alero de los principios de la ciencia abierta, dentro de lo cual podemos encontrar los sesgos y prácticas referidas a las presiones por publicar, prácticas cuestionables de investigación, reproducibilidad y privacidad de datos. Por otro lado, se han propuesto promover el manejo de técnicas de investigación para la transparencia y reproducibilidad, principalmente a través de actividades de entrenamiento con un foco en el aprendizaje e implementación de herramientas y métodos. En esta línea destacan dos contribuciones que se fundamentan en estos principios, las cuales serán descritas a continuación.</p>
-<p><strong>Research Transparency and Reproducibility Training</strong></p>
-<p>Una de las contribuciones señaladas es el Research Transparency and Reproducibility Training (RT2), el cual constituye uno de los principales eventos académicos realizados anualmente por BITSS, teniendo por objetivo el poner a disposición de estudiantes e investigadores una mirada general de las herramientas y prácticas actuales para la transparencia y la reproducibilidad en la investigación empírica en ciencias sociales. Los contenidos de RT2 abordan una serie de tópicos de manera transversal que pueden ser ilustrados en seis puntos:</p>
-<ul>
-<li><p><strong>Amenazas</strong> para la credibilidad en la ciencia y la reproducibilidad, junto con su relación con el <em>ethos</em> científico: Conducta y valores en la ciencia.</p></li>
-<li><p><strong>Mejoras</strong> en las especificaciones de los diseños de investigación: pre-registros y plan de pre-analysis en investigación con datos experimentales y observacionales.</p></li>
-<li><p><strong>Ética e investigación abierta</strong>: estándares éticos para la ciencia abierta, manejo de datos y autoría de fuentes de información abiertas (citación).</p></li>
-<li><p><strong>Herramientas y métodos</strong> para la investigación reproducible y colaboración: control de versiones y reportes dinámicos.</p></li>
-<li><p><strong>Sistematización de evidencia</strong>, reproducibilidad e interpretación: métodos para investigación meta-analítica y revisiones sistemáticas, transparencia y reproducibilidad usando datos administrativos; y replicabilidad en la investigación.</p></li>
-<li><p><strong>Software</strong> para la Ciencia Abierta e innovaciones metodológicas.</p></li>
-</ul>
-<p><strong>MOOC: Transparent and Open Social Science Research</strong></p>
-<p>Otra de las contribuciones es el Transparent and Open Social Science Research que corresponde a un curso gratuito online de cinco semanas el cual aborda los fundamentos conceptuales y las principales herramientas para promover una ciencia social abierta y transparente. La Tabla @ref(tab:mooc) muestra el contenido de las sesiones, las cuales se basan en un curso de nivel de grado dictado por el director de BITSS Ted Miguel en la Universidad de California Berkeley.</p>
-<table class="caption-top table">
-<caption>(#tab:mooc) Cursos por semana en el MOOC de BITSS</caption>
-<thead>
-<tr class="header">
-<th>Semana</th>
-<th>Contenido</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td><a href="http://bitss.org/week-1/">Introducción a la transparencia y reproducibilidad de la investigación</a></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td><a href="http://www.bitss.org/week-2-publication-bias/">Sesgo de publicación</a></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td><a href="http://www.bitss.org/week-3-pre-registration-pre-analysis-plans-and-meta-analysis/">Pre-registro, Plan de Pre-Análisis; y Meta-análisis</a></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td><a href="http://www.bitss.org/week-4-replication-and-open-data/">Replicación y Datos Abiertos</a></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td><a href="http://www.bitss.org/week-5-transparent-data-visualization-and-looking-forward">Visualización de Datos transparente y Viendo hacia adelante</a></td>
-</tr>
-</tbody>
-</table>
-<p>Una de las principales características de este curso introductorio es la sistematización de aspectos claves para la ciencia abierta con un foco particular en las ciencias sociales. Adicionalmente, tiene el objetivo de introducir conceptualmente a los problemas que se han visto presentes en las ciencias y busca dar respuestas a prácticas a través de herramientas y métodos concretos para solucionarlo. Finalmente, constituye un esfuerzo breve y preciso, dado que las sesiones semanales poseen una duración promedio de unos treinta minutos y se encuentran dosificadas en videos de corta duración subtitulados.</p>
-<p>En el ámbito de los Recursos que provee BITTS, podemos encontrar una librería de recursos o simplemente la <a href="https://www.bitss.org/resource-library/"><em>Resource Library</em></a>, la cual incluye una multiplicidad de recursos de aprendizaje digitales en torno a la transparencia y reproducibilidad, ordenados según (i) Tópico, (ii) Tipo y (iii) Disciplina de las ciencias sociales. La Figura @ref(fig:resources) muestra cómo se visualizan los tópicos disponibles en la librería, lo cual puede ser ordenado según tipo y disciplina.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div id="fig-resources" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-resources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/resource-library.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-resources-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4.3: Librería de Recursos de BITSS
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="proyecto-tier-teaching-integrity-in-empirical-research" class="level3" data-number="4.1.2">
-<h3 data-number="4.1.2" class="anchored" data-anchor-id="proyecto-tier-teaching-integrity-in-empirical-research"><span class="header-section-number">4.1.2</span> Proyecto TIER (Teaching Integrity in Empirical Research)</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/tier-logo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Objetivos y visión</strong></p>
-<p>El proyecto TIER es una iniciativa respaldada por la <a href="https://sloan.org/">Fundación Alfred Sloan</a> que se propone contribuir a un cambio en las normas y conductas profesionales en torno a la transparencia y reproducibilidad en la investigación empírica en las ciencias sociales.</p>
-<p>Uno de los principios orientadores de sus actividades es el proveer formación en herramientas para la documentación oportuna de procedimientos que involucren datos estadísticos a través de rutinas y referencias que garanticen la <strong>reproducibilidad</strong> de estos. La idea subyacente que motiva estas acciones es que los autores puedan concebir la documentación como un componente esencial de la <strong>comunicación</strong> de sus resultados con sus pares, como también al público no especializado, de modo tal que estas medidas contribuyan a incrementar la confianza y credibilidad en la evidencia científica. En esta línea, su declaración de principios sostiene que su objetivo se puede considerar como logrado cuando:</p>
-<blockquote class="blockquote">
-<p>(…) no proporcionar documentación de replicación para un estudio empírico se considere tan <strong>aberrante</strong> como escribir un artículo teórico que no contenga pruebas de las proposiciones, un artículo experimental que no describa las condiciones de tratamiento o un artículo de revisión de leyes que no cite los estatutos legales o las decisiones judiciales. (traducción propia)</p>
-</blockquote>
-<p><strong>Contribución</strong></p>
-<p>Es necesario tener presente que uno de los principales campos de acción del proyecto TIER es la <strong>Educación</strong> y <strong>Entrenamiento</strong> hacia cientistas sociales en formación, tomando en consideración que es en el ciclo formativo inicial donde se deben impulsar la adopción de prácticas integrales para la investigación social empírica. En esta línea, uno de los elementos destacables es la sección de herramientas para la enseñanza titulada “TIER in the Classroom”, sus contenidos referidos a temas de <strong>reproducibilidad</strong> se pueden resumir de la siguiente manera:</p>
-<ul>
-<li><p><a href="https://www.projecttier.org/tier-classroom/soup-nuts-exercises/"><strong><em>Soup-to-Nuts Exercises</em></strong></a>: No existe una traducción en el español, no obstante la expresión “Soup-to-Nuts” refiere a un proceso de “inicio-a-fin”. Como lo dice, esta sección muestra ejercicios orientados a la reproducibilidad de los análisis pasando por (1) los datos, (2) procesamiento, (3) análisis y (4) reporte. La idea fuerza de este ejercicio es introducir a estudiantes a los principios y prácticas fundamentales de la investigación social transparente y reproducible para que los implementen en sus tareas o informes.</p></li>
-<li><p><a href="https://www.projecttier.org/tier-classroom/course-materials/"><strong>Materiales para clases</strong></a>: Esta sección está fuertemente orientada al análisis estadístico y a los métodos cuantitativos. Se presentan una serie de veinticuatro cursos de pregrado y postgrado que incorporan en su currículum los principios de transparencia y reproducibilidad en la enseñanza de los métodos de manera transversal. Los materiales de cada curso se encuentran disponibles para libre descarga, incorporando ejercicios de análisis estadístico (R, Stata, SPSS), reportes dinámicos (R Markdown, Markstat) y sus respectivos <em>syllabus</em>.</p></li>
-<li><p><a href="https://www.projecttier.org/tier-classroom/student-work/#student-papers"><strong>Trabajos estudiantiles</strong></a>: En esta sección se incorporan una serie de trabajos estudiantiles/papers, los cuales están acompañados de una completa documentación basada en el <a href="https://www.projecttier.org/tier-protocol/">Protocolo TIER (ver detalle abajo)</a>. El objetivo es presentar modelos de trabajos realizados con análisis reproducibles, de modo tal que quien esté interesado en emplear la estructura de un proyecto pueda observar un trabajo real e, idealmente, logre reproducir completamente sus resultados.</p></li>
-</ul>
-<p>Una de las contribuciones más relevantes del proyecto TIER es la elaboración de <strong>estándares</strong> para la <strong>organización</strong>, <strong>publicación</strong> y <strong>comunicación</strong> de proyectos de investigación empírica cuantitativa reproducible. Al respecto, existen dos esfuerzos orientados a este fin:</p>
-<p>Por un lado tenemos el <a href="https://www.projecttier.org/tier-protocol/specifications-3-0/#overview-of-the-documentation">Protocolo TIER</a>, el cual constituye una serie de especificaciones respecto a los contenidos de la documentación para la replicación de un estudio, el cual está orientado a ser empleado para la enseñanza de la investigación que incorpore la reproducibilidad de los análisis. En este caso es importante precisar, como ya hemos identificado en un principio, que el concepto de <strong>replicación</strong> se emplea como sinónimo de <strong>reproducibilidad</strong>, entendiendo este último como la conjunción de datos y métodos originales que nos permitan <strong>regenerar</strong> los resultados de un estudio que ha sido publicado. Por lo tanto, cuando en TIER se habla de replicación se refiere a esta idea. La documentación debe incluir una serie de elementos descritos a continuación.</p>
-<ul>
-<li><p>Datos empleados por el proyecto</p></li>
-<li><p>Rutinas de código escrito en el software empleado para la preparación y análisis estadístico. Esto se incluye dado que el objetivo es proveer los datos brutos a procesar, junto con todas las instrucciones que permiten <strong>regenerar</strong> los resultados reportados en el estudio.</p></li>
-<li><p>Fuentes de información que contribuyan a comprender detalladamente cada sección del estudio de inicio a fin.</p></li>
-</ul>
-<p>Por otro lado tenemos el <a href="https://www.projecttier.org/tier-protocol/dress-protocol/">Protocolo DRESS</a> (Documenting Research in the Empirical Social Sciences). Al igual que el Protocolo TIER, se incorporan los mismos estándares para la documentación de una investigación transparente que incorpore la reproducibilidad de los análisis. Sin embargo, este se encuentra adaptado a los propósitos de los <strong>investigadores profesionales</strong>, más que para el uso de los estudiantes durante su formación en investigación.</p>
-</section>
-<section id="uk-reproducibility-network-ukrn" class="level3" data-number="4.1.3">
-<h3 data-number="4.1.3" class="anchored" data-anchor-id="uk-reproducibility-network-ukrn"><span class="header-section-number">4.1.3</span> UK Reproducibility Network (UKRN)</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/UKRN-Logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Objetivos y visión</strong></p>
-<p>La UK Reproducibility Network (UKRN) es un consorcio institucional del Reino Unido que tiene por objetivo promover los principios y prácticas de la ciencia abierta con una mirada local, es decir, en las instituciones nacionales y sus investigadores. Para contribuir a este objetivo se realizan esfuerzos en torno a la investigación de los factores que determinan una investigación abierta y robusta, promoviendo el entrenamiento a través de actividades abiertas y diseminando las buenas prácticas para una ciencia abierta. En particular, se proponen profundizar en los factores que determinan la carencia de <strong>reproducibilidad</strong> y <strong>replicabilidad</strong>, para lo cual se busca:</p>
-<ul>
-<li><p>Desarrollar aproximaciones que contrarresten esta falta de transparencia.</p></li>
-<li><p>Incrementar la confianza y la calidad de la investigación científica.</p></li>
-<li><p>Abordar de manera transversal estos problemas en las distintas disciplinas científicas.</p></li>
-<li><p>Avanzar hacia un cambio cultural en la ciencia y transformar las prácticas de quienes la desarrollan.</p></li>
-</ul>
-<p>La UKRN se caracteriza por un trabajo en red, es decir, por un importante componente de vinculación entre instituciones de investigación asociadas a universidades como también a oficinas gubernamentales que desarrollan investigación (ver <a href="https://www.ukrn.org/stakeholders/">External Stakeholders</a>). En esta línea, existen diversas iniciativas apoyadas por la UKRN que promueven el entrenamiento, metodologías y recursos tecnológicos para la ciencia abierta. A continuación se presentarán algunas de las contribuciones más relevantes realizadas por la red, como también algunas de las iniciativas externas que han sido respaldadas por la UKRN.</p>
-<p><strong>Contribución</strong></p>
-<p>En el ámbito de la <strong>Educación</strong> y <strong>Entrenamiento</strong>, es posible identificar, por un lado, las contribuciones realizadas directamente por la UKRN y, por otro lado, las iniciativas que son respaldadas por la red y que promueven la formación en torno a los principios y prácticas de la ciencia abierta, particularmente en la etapa temprana de la carrera de investigación.</p>
-<p>Respecto a una de las iniciativas elaboradas por los académicos e investigadores involucrados en la UKRN, encontramos uno de los principales recursos virtuales en un breve curso online que aborda una serie de tópicos relevantes para la promoción de la ciencia abierta, dentro de lo cual encontramos el uso de pre-prints, autorías, registered reports, datos abiertos y reproducibilidad. A continuación se puede observar la lista de sesiones que han sido desarrolladas en torno a estos temas.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/videoseries?list=PLehgGZrvxReSisRauEJ2DxPAIYVVEr1qC" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Junto con las sesiones, existe una serie de recursos compartidos a través de un proyecto abierto en el <a href="https://osf.io/x8j9q/">Open Science Framework</a>. Aquí es posible acceder a documentos breves que abordan los tópicos de cada sesión, además de <a href="https://osf.io/qw9ck/">recursos adicionales</a> sobre uso de software de código abierto y repositorios.</p>
-<p>Un ámbito de desarrollo ha sido la disposición de <strong>recursos tecnológicos</strong> que promuevan y faciliten las prácticas en ciencia abierta. Una de las iniciativas impulsadas es el <a href="https://openresearchcalendar.org/"><strong>Open Research Calendar</strong></a>, el cual consiste en un instrumento colaborativo y abierto que busca brindar a la comunidad de investigadores interesados en temas relacionados a la ciencia abierta un flujo constante de actualizaciones en torno a workshops y conferencias a nivel mundial que abordan tópicos sobre ciencia abierta unificados en un calendario. El carácter <strong>colaborativo</strong> de esta herramienta permite que usuarios previamente registrados y validados puedan contribuir con información que se centraliza en el calendario de eventos, precisando los contenidos y redireccionando a la inscripción y/o enlace para las actividades que se realizan a través de internet. Para facilitar la experiencia de usuario, el calendario se integra con Google Calendar que puede sincronizarse con la agenda personal y que se van actualizando automáticamente.</p>
-<p>Otra herramienta tecnológica patrocinada por la UKRN es la plataforma <a href="https://science-octopus.org/">Octopus</a>. A la fecha, la plataforma se presenta como una aplicación en desarrollo y abierta a comentarios de los usuarios. En términos generales se propone ser una alternativa para contribuir a la apertura de publicaciones. El detalle se presenta así:</p>
-<blockquote class="blockquote">
-<p>(…) sustituir a las revistas y los artículos como lugar para establecer la prioridad y registrar su trabajo con todo detalle, Octopus es de uso gratuito y publica todo tipo de trabajos científicos, ya sea una hipótesis, un método, datos, un análisis o una revisión por pares (traducción propia).</p>
-</blockquote>
-<p>La Figura @ref(fig:octopus) ilustra un ejemplo de cómo se ve un proyecto en Octopus. Vemos que existen siete componentes que buscan representar el flujo de una investigación. Entendiendo que los procesos de investigación no son lineales y tienden a existir iteraciones entre teoría y métodos, la virtud del registro y publicación de un proyecto permite que otros puedan conocer y evaluar nuestras hipótesis, plan de análisis, resultados y versiones de un artículo, así como también la vinculación entre cada sección.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div id="fig-octopus" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-octopus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/octopus.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-octopus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4.4: Ejemplo de un trabajo registrado en desarrollo en octopus.org
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<p>Para publicar debemos <a href="https://science-octopus.org/publish">ingresar</a> con una cuenta de ORCID. Si no tienes una cuenta puedes crear un perfil <a href="https://orcid.org/">aquí</a>. Luego, se deben seguir tres pasos. El primero es elegir qué tipo de componente se desea publicar (Problema, Hipótesis, Métodos, etc). Segundo, dar detalles sobre el componente y con qué otros proyectos se relaciona. Finalmente, contribuir con un borrador de escritura que luego será publicado.</p>
 
 
 <!-- -->
@@ -500,8 +398,6 @@ Open Science Collaboration. 2015. <span>«Estimating the Reproducibility of Psyc
 Peng, R. D. 2011. <span>«Reproducible <span>Research</span> in <span>Computational Science</span>»</span>. <em>Science</em> 334 (6060): 1226-27. <a href="https://doi.org/10.1126/science.1213847">https://doi.org/10.1126/science.1213847</a>.
 </div>
 </div>
-</section>
-</section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
@@ -968,13 +864,13 @@ Peng, R. D. 2011. <span>«Reproducible <span>Research</span> in <span>Computatio
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./03-datos-abiertos.html" class="pagination-link" aria-label="Datos abiertos">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Datos abiertos</span></span>
+      <a href="./03b-datos-abiertos.html" class="pagination-link" aria-label="Consejos para la Apertura de Datos de Investigación Social">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Consejos para la Apertura de Datos de Investigación Social</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./05-publicaciones-libres.html" class="pagination-link" aria-label="Publicaciones libres">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publicaciones libres</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./04a-analisis-reproducible.html" class="pagination-link" aria-label="¿Qué se ha hecho?">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">¿Qué se ha hecho?</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
@@ -984,7 +880,7 @@ Peng, R. D. 2011. <span>«Reproducible <span>Research</span> in <span>Computatio
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>La discusión en torno a cómo se entiende la **reproducibilidad**, habitualmente lleva al contraste respecto al concepto de **replicabilidad**. Al respecto @earth_reproducibility_2019 mencionan que, por un lado, con el incremento de las herramientas computacionales a principios de los años 90’, el término de "investigación reproducible" era concebido como las investigaciones que proveían un compendio detallado de la documentación, código y datos que permitieran obtener los mismos resultados publicados por los autores, enfatizando que los análisis fueran transparentes y claros con el objetivo de ser verificados por sus pares. Por otro lado, los autores sostienen que, en otras disciplinas, el concepto de reproducibilidad era asociado a investigaciones independientes entre sí en términos de los datos empleados, los materiales, métodos e implementación de un estudio, lo cual estaría orientado a robustecer o cuestionar la evidencia previa <span class="co">[</span><span class="ot">@earth_reproducibility_2019, pp 33-34</span><span class="co">]</span>. Actualmente, a esta última práctica se la entiende como replicabilidad de una investigación y no debe ser confundida con el concepto de reproducibilidad <span class="co">[</span><span class="ot">@barba_terminologies_2018</span><span class="co">]</span>.</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>@barba_terminologies_2018 sugiere que la confusión entre reproducibilidad y replicabilidad ha contribuido a obstaculizar las prácticas en ambas dimensiones. En una revisión reciente realizada por la autora se han identificado al menos tres escenarios o versiones de cómo se entienden ambos conceptos en una amplia gama de disciplinas que van desde las ciencias sociales hasta estudios clínicos en las ciencias médicas. El primer escenario (A), y a la vez el más común, es donde el uso de ambos conceptos es indistinto, contribuyendo a la ya mencionada confusión. El segundo escenario (B1) es cuando la reproducibilidad es entendida como la situación en que los datos originales y el código de análisis son empleados para **regenerar** los resultados originales, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes utilizan datos nuevos para obtener los mismos resultados que la investigación previa. Finalmente, un tercer escenario (B2) es cuando la reproducibilidad es entendida cuando investigadores o equipos independientes obtienen los mismos resultados empleando sus propios datos y métodos, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes llegan a los mismos resultados empleando los artefactos digitales <span class="ot">[^1]</span> originales del autor con menores o mayores modificaciones, los cuales han sido puestos previamente a disposición de sus pares. La Figura N° \@ref(fig:scenarios) ilustra cómo podemos entender los escenarios B1 y B2 en relación a la distinción entre reproducibilidad y replicabilidad. El color rojo, tanto en los datos como en los métodos, indica que los componentes empleados son idénticos a los del estudio original. Por otro lado, el color azul indica que tanto los datos como los métodos son distintos a los del estudio original. Finalmente, el color morado en los métodos se entiende como un punto intermedio y refiere a cuando se han empleado métodos que siguen las indicaciones del estudio original, pero que han incorporado modificaciones, nuevos métodos u otras innovaciones metodológicas (p. ej. métodos nuevos, pruebas de robustez u otros).</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>@barba_terminologies_2018 sugiere que la confusión entre reproducibilidad y replicabilidad ha contribuido a obstaculizar las prácticas en ambas dimensiones. En una revisión reciente realizada por la autora se han identificado al menos tres escenarios o versiones de cómo se entienden ambos conceptos en una amplia gama de disciplinas que van desde las ciencias sociales hasta estudios clínicos en las ciencias médicas. El primer escenario (A), y a la vez el más común, es donde el uso de ambos conceptos es indistinto, contribuyendo a la ya mencionada confusión. El segundo escenario (B1) es cuando la reproducibilidad es entendida como la situación en que los datos originales y el código de análisis son empleados para **regenerar** los resultados originales, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes utilizan datos nuevos para obtener los mismos resultados que la investigación previa. Finalmente, un tercer escenario (B2) es cuando la reproducibilidad es entendida cuando investigadores o equipos independientes obtienen los mismos resultados empleando sus propios datos y métodos, mientras que la replicabilidad es entendida cuando investigadores o equipos independientes llegan a los mismos resultados empleando los artefactos digitales <span class="ot">[^1]</span> originales del autor con menores o mayores modificaciones, los cuales han sido puestos previamente a disposición de sus pares. La @fig-scenarios ilustra cómo podemos entender los escenarios B1 y B2 en relación a la distinción entre reproducibilidad y replicabilidad. El color rojo, tanto en los datos como en los métodos, indica que los componentes empleados son idénticos a los del estudio original. Por otro lado, el color azul indica que tanto los datos como los métodos son distintos a los del estudio original. Finalmente, el color morado en los métodos se entiende como un punto intermedio y refiere a cuando se han empleado métodos que siguen las indicaciones del estudio original, pero que han incorporado modificaciones, nuevos métodos u otras innovaciones metodológicas (p. ej. métodos nuevos, pruebas de robustez u otros).</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>@barba_terminologies_2018 lo define como un compendio que detallar la estrategia de medición, diseño del estudio o código de análisis originales de un autor</span>
@@ -1001,7 +897,7 @@ Peng, R. D. 2011. <span>«Reproducible <span>Research</span> in <span>Computatio
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>En las ciencias sociales, el debate en torno a la investigación reproducible y la replicabilidad no ha estado ausente. Como fue reseñado en el capítulo de transparencia, existen casos icónicos en torno a prácticas cuestionables de investigación que han afectado la confianza en la investigación científica, lo cual ha contribuido a incrementar los esfuerzos por una ciencia social abierta y reproducible <span class="co">[</span><span class="ot">@breznau_does_2021; @nosek_promoting_2015</span><span class="co">]</span>. En los tres escenarios descritos por @barba_terminologies_2018, las ciencias sociales han experimentado de manera diversa el ajuste hacia una cultura de mayor apertura y precisión en torno a los problemas de la crisis de reproducibilidad, principalmente a través del estudio sistemático de dicha problemática, dentro de lo cual la psicología ha sido pionera en proveer evidencia para este debate <span class="co">[</span><span class="ot">e.g. @opensciencecollaboration_estimating_2015; @gilbert_comment_2016</span><span class="co">]</span>. Al respecto @bishop_rein_2019 sostiene que una de las principales amenazas para el progreso de la ciencia en general ha sido la falta de reproducibilidad de los resultados (_irreproducibility_), lo cual ha afectado principalmente la robustez y credibilidad de la evidencia reportada por las investigaciones, problema que también ha sido identificado en las ciencias sociales, principalmente por la falta de precisión en los procedimientos y las barreras de acceso a materiales clave del proceso de análisis <span class="co">[</span><span class="ot">@freese_replication_2017</span><span class="co">]</span>.</span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>Entonces, retomando la distinción clave entre lo que entendemos por **reproducibilidad** y **replicabilidad**, en su revisión, @barba_terminologies_2018 sugiere que una manera de entender y distinguir ambos conceptos de manera minimalista puede descansar en el carácter de los _datos_ y los _métodos_.  Al respecto @nosek_promoting_2015 sostiene que en lo que refiere a estas dos dimensiones, los niveles en que una publicación los incorpora es gradual y puede entenderse como un continuo o espectro <span class="co">[</span><span class="ot">@peng_reproducible_2011</span><span class="co">]</span> y, por tanto, el nivel en que se cumplen bajo determinados criterios nos permite definir el carácter de una investigación en términos de su reproducibilidad. Por ejemplo, la Figura N° \@ref(fig:espectro) nos muestra cómo podemos caracterizar una investigación publicada en torno al acceso y vinculación entre código y datos. Por un lado, se observa que en el polo donde únicamente disponemos de la publicación, se entiende como la ausencia de reproducibilidad. Por otro lado, en la medida que incrementa el acceso a los materiales, y se explicita el enlace entre ellos, se puede caracterizar a una publicación como reproducible. <span class="ot">[^2]</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>Entonces, retomando la distinción clave entre lo que entendemos por **reproducibilidad** y **replicabilidad**, en su revisión, @barba_terminologies_2018 sugiere que una manera de entender y distinguir ambos conceptos de manera minimalista puede descansar en el carácter de los _datos_ y los _métodos_.  Al respecto @nosek_promoting_2015 sostiene que en lo que refiere a estas dos dimensiones, los niveles en que una publicación los incorpora es gradual y puede entenderse como un continuo o espectro <span class="co">[</span><span class="ot">@peng_reproducible_2011</span><span class="co">]</span> y, por tanto, el nivel en que se cumplen bajo determinados criterios nos permite definir el carácter de una investigación en términos de su reproducibilidad. Por ejemplo, la @fig-espectro nos muestra cómo podemos caracterizar una investigación publicada en torno al acceso y vinculación entre código y datos. Por un lado, se observa que en el polo donde únicamente disponemos de la publicación, se entiende como la ausencia de reproducibilidad. Por otro lado, en la medida que incrementa el acceso a los materiales, y se explicita el enlace entre ellos, se puede caracterizar a una publicación como reproducible. <span class="ot">[^2]</span></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]: </span>En la figura original, @peng_reproducible_2011 muestra el polo derecho como el mejor escenario y lo clasifica como *Full replication*, sugiriendo que el mejor estándar para poner a prueba los hallazgos de una investigación científica es la replicación, pero en la ausencia de dicha posibilidad la reproducibilidad de los resultados debiese ser un estándar mínimo</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
@@ -1016,172 +912,6 @@ Peng, R. D. 2011. <span>«Reproducible <span>Research</span> in <span>Computatio
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>Como sugieren @nosek_promoting_2015, el problema de la ausencia o falta de reproducibilidad debe ser abordado a través de un cambio en las prácticas de investigación, para lo cual se requiere de una disposición por parte de la comunidad científica, es decir, que se le atribuya un _sentido_ positivo a estas prácticas. Sin embargo, @peng_reproducible_2011 sostiene que una de las principales barreras para promover estas prácticas ha sido la falta de mecanismos que faciliten la distribución de la investigación reproducible, como también la poca claridad respecto de los estándares asociados a ello. Siguiendo esta autocrítica de algunos sectores dentro de la comunidad científica, dentro de los últimos años han surgido iniciativas como, por ejemplo, el Open Science Framework, al alero del <span class="co">[</span><span class="ot">Center for Open Science</span><span class="co">](https://www.cos.io/)</span>, desde donde se busca contribuir con herramientas para el entrenamiento y educación de la comunidad científica en general, como también proveer de una infraestructura tecnológica que facilite la transición cultural hacia una ciencia abierta, transparente y reproducible <span class="co">[</span><span class="ot">@nosek_promoting_2015</span><span class="co">]</span>. Por este motivo, proponemos revisar tres iniciativas internacionales que han puesto sus esfuerzos en la promoción de estos principios, con particular atención en la reproducibilidad de la investigación científica, y en particular de las ciencias sociales empíricas cuantitativas. Dentro de estas iniciativas encontraremos esfuerzos orientados a la educación y entrenamiento, herramientas tecnológicas y fortalecimiento de redes de colaboración.</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## ¿Qué se ha hecho?</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">### Berkeley Initiative for Transparency in the Social Sciences (BITSS)</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-align: center</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co">#| out-width: 75%</span></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/BITSS_logo_horizontal.png"</span>)</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>**Objetivos y visión** </span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>Esta iniciativa busca promover la credibilidad en la evidencia generada por las ciencias sociales a través de mecanismos de avanzada para la transparencia, reproducibilidad y prácticas éticas en la investigación social empírica. Desde esta premisa, se ha desarrollado y puesto a disposición de la comunidad científica una serie de herramientas en colaboración con estudiantes, investigadores, entidades académicas y fundaciones de la sociedad civil al alero de tres principios orientadores:</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Generar evidencia en torno a problemas y soluciones a través de los investigadores y la comunidad de BITSS, quienes han liderado investigaciones meta-analíticas, con atención en las ciencias sociales.</span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Incrementar el acceso a la enseñanza de la ciencia abierta, a través del fortalecimiento de prácticas para reconocer y conducir investigación social transparente y reproducible a través del entrenamiento de investigadores jóvenes, acceso a materiales, apoyo financiero y la consolidación de una red de colaboración.</span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Fortalecer el ecosistema científico, estableciendo condiciones para investigadores e instituciones para contribuir a un cambio efectivo y equitativo en las normas que permitan una consolidación de una política interna orientada a la ciencia abierta y al desarrollo de protocolos en esta dirección.</span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>Desde sus inicios, se han desarrollado una serie de componentes que buscan promover y dar soluciones a los problemas de transparencia y reproducibilidad en las ciencias sociales. En particular, nos interesa destacar algunas de las contribuciones en este ámbito que serán presentadas a continuación, las cuales se pueden resumir en Evidencia, Educación y Recursos.</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>**Contribución**</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>En el ámbito de Evidencia, desde BITSS se ha realizado un esfuerzo por producir y sistematizar evidencia centralizadamente. En este contexto existe la <span class="co">[</span><span class="ot">Research Library</span><span class="co">](https://www.bitss.org/research-library/)</span>, una base de datos de publicaciones científicas que engloba una serie de investigaciones meta-analíticas en el ámbito de las ciencias sociales, contribuyendo con un cuerpo de evidencia sistemática en torno a los problemas y soluciones sobre transparencia y reproducibilidad en las ciencias sociales sin precedentes. En este apartado, tanto los colaboradores como investigadores de BITSS ponen a disposición de la comunidad científica las investigaciones que han sido financiadas a través de las Social Science Meta-Analysis and Research Transparency (<span class="co">[</span><span class="ot">SSMART</span><span class="co">](https://www.bitss.org/ssmart-grants/)</span>) grants, las cuales constituyen fondos orientados a contribuir a la investigación empírica en torno a la transparencia y reproducibilidad en disciplinas como la economía, ciencia política, psicología y ciencias sociales afines.</span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Desde la Educación y Entrenamiento podemos identificar la articulación de una serie de _Training activities_ desarrolladas por BITSS. Dentro de los objetivos de estas actividades encontramos dos aspectos que se buscan abordar desde esta dimensión. Por un lado, se encuentra el promover una visión crítica de los investigadores en las ciencias sociales, esto considera un entendimiento de los principales problemas asociados a la investigación social de calidad al alero de los principios de la ciencia abierta, dentro de lo cual podemos encontrar los sesgos y prácticas referidas a las presiones por publicar, prácticas cuestionables de investigación, reproducibilidad y privacidad de datos. Por otro lado, se han propuesto promover el manejo de técnicas de investigación para la transparencia y reproducibilidad, principalmente a través de actividades de entrenamiento con un foco en el aprendizaje e implementación de herramientas y métodos. En esta línea destacan dos contribuciones que se fundamentan en estos principios, las cuales serán descritas a continuación.</span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>**Research Transparency and Reproducibility Training**</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>Una de las contribuciones señaladas es el Research Transparency and Reproducibility Training (RT2), el cual constituye uno de los principales eventos académicos realizados anualmente por BITSS, teniendo por objetivo el poner a disposición de estudiantes e investigadores una mirada general de las herramientas y prácticas actuales para la transparencia y la reproducibilidad en la investigación empírica en ciencias sociales. Los contenidos de RT2 abordan una serie de tópicos de manera transversal que pueden ser ilustrados en seis puntos:</span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Amenazas** para la credibilidad en la ciencia y la reproducibilidad, junto con su relación con el _ethos_ científico: Conducta y valores en la ciencia.</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mejoras** en las especificaciones de los diseños de investigación: pre-registros y plan de pre-analysis en investigación con datos experimentales y observacionales.</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Ética e investigación abierta**: estándares éticos para la ciencia abierta, manejo de datos y autoría de fuentes de información abiertas (citación).</span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Herramientas y métodos** para la investigación reproducible y colaboración: control de versiones y reportes dinámicos.</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Sistematización de evidencia**, reproducibilidad e interpretación: métodos para investigación meta-analítica y revisiones sistemáticas, transparencia y reproducibilidad usando datos administrativos; y  replicabilidad en la investigación.</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Software** para la Ciencia Abierta e innovaciones metodológicas.</span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>**MOOC: Transparent and Open Social Science Research**</span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>Otra de las contribuciones es el Transparent and Open Social Science Research que corresponde a un curso gratuito online de cinco semanas el cual aborda los fundamentos conceptuales y las principales herramientas para promover una ciencia social abierta y transparente. La Tabla \@ref(tab:mooc) muestra el contenido de las sesiones, las cuales se basan en un curso de nivel de grado dictado por el director de BITSS Ted Miguel en la Universidad de California Berkeley.</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Semana <span class="pp">|</span> Contenido                                                                                                                                     <span class="pp">|</span></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="pp">|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|</span></span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 1      <span class="pp">|</span> <span class="co">[</span><span class="ot">Introducción a la transparencia y reproducibilidad de la investigación</span><span class="co">](http://bitss.org/week-1/)</span>                                            <span class="pp">|</span></span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 2      <span class="pp">|</span> <span class="co">[</span><span class="ot">Sesgo de publicación</span><span class="co">](http://www.bitss.org/week-2-publication-bias/)</span>                                                                         <span class="pp">|</span></span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 3      <span class="pp">|</span> <span class="co">[</span><span class="ot">Pre-registro, Plan de Pre-Análisis; y Meta-análisis</span><span class="co">](http://www.bitss.org/week-3-pre-registration-pre-analysis-plans-and-meta-analysis/)</span>     <span class="pp">|</span></span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 4      <span class="pp">|</span> <span class="co">[</span><span class="ot">Replicación y Datos Abiertos</span><span class="co">](http://www.bitss.org/week-4-replication-and-open-data/)</span>                                                        <span class="pp">|</span></span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> 5      <span class="pp">|</span> <span class="co">[</span><span class="ot">Visualización de Datos transparente y Viendo hacia adelante</span><span class="co">](http://www.bitss.org/week-5-transparent-data-visualization-and-looking-forward)</span> <span class="pp">|</span></span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>Table: <span class="in">`r as.character(paste("(\\#tab:mooc)", "Cursos por semana en el MOOC de BITSS"))`</span></span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>Una de las principales características de este curso introductorio es la sistematización de aspectos claves para la ciencia abierta con un foco particular en las ciencias sociales. Adicionalmente, tiene el objetivo de introducir conceptualmente a los problemas que se han visto presentes en las ciencias y busca dar respuestas a prácticas a través de herramientas y métodos concretos para solucionarlo. Finalmente, constituye un esfuerzo breve y preciso, dado que las sesiones semanales poseen una duración promedio de unos treinta minutos y se encuentran dosificadas en videos de corta duración subtitulados.</span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>En el ámbito de los Recursos que provee BITTS, podemos encontrar una librería de recursos o simplemente la <span class="co">[</span><span class="ot">_Resource Library_</span><span class="co">](https://www.bitss.org/resource-library/ )</span>, la cual incluye una multiplicidad de recursos de aprendizaje digitales en torno a la transparencia y reproducibilidad, ordenados según (i) Tópico, (ii) Tipo y (iii) Disciplina de las ciencias sociales. La Figura \@ref(fig:resources) muestra cómo se visualizan los tópicos disponibles en la librería, lo cual puede ser ordenado según tipo y disciplina.</span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-resources</span></span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Librería de Recursos de BITSS"</span></span>
-<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-align: center</span></span>
-<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="co">#| out-width: 75%</span></span>
-<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/resource-library.PNG"</span>)</span>
-<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="fu">### Proyecto TIER (Teaching Integrity in Empirical Research)</span></span>
-<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, fig.align = 'center', out.width = '75%'}</span></span>
-<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/tier-logo.jpg"</span>)</span>
-<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a>**Objetivos y visión**</span>
-<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a>El proyecto TIER es una iniciativa respaldada por la <span class="co">[</span><span class="ot">Fundación Alfred Sloan</span><span class="co">](https://sloan.org/)</span> que se propone contribuir a un cambio en las normas y conductas profesionales en torno a la transparencia y reproducibilidad en la investigación empírica en las ciencias sociales.</span>
-<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>Uno de los principios orientadores de sus actividades es el proveer formación en herramientas para la documentación oportuna de procedimientos que involucren datos estadísticos a través de rutinas y referencias que garanticen la **reproducibilidad** de estos. La idea subyacente que motiva estas acciones es que los autores puedan concebir la documentación como un componente esencial de la **comunicación** de sus resultados con sus pares, como también al público no especializado, de modo tal que estas medidas contribuyan a incrementar la confianza y credibilidad en la evidencia científica. En esta línea, su declaración de principios sostiene que su objetivo se puede considerar como logrado cuando:</span>
-<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (...) no proporcionar documentación de replicación para un estudio empírico se considere tan **aberrante** como escribir un artículo teórico que no contenga pruebas de las proposiciones, un artículo experimental que no describa las condiciones de tratamiento o un artículo de revisión de leyes que no cite los estatutos legales o las decisiones judiciales. (traducción propia)</span></span>
-<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>**Contribución**</span>
-<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>Es necesario tener presente que uno de los principales campos de acción del proyecto TIER es la **Educación** y **Entrenamiento** hacia cientistas sociales en formación, tomando en consideración que es en el ciclo formativo inicial donde se deben impulsar la adopción de prácticas integrales para la investigación social empírica. En esta línea, uno de los elementos destacables es la sección de herramientas para la enseñanza titulada “TIER in the Classroom”, sus contenidos referidos a temas de **reproducibilidad** se pueden resumir de la siguiente manera:</span>
-<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">**_Soup-to-Nuts Exercises_**</span><span class="co">](https://www.projecttier.org/tier-classroom/soup-nuts-exercises/)</span>: No existe una traducción en el español, no obstante la expresión “Soup-to-Nuts” refiere a un proceso de “inicio-a-fin”. Como lo dice, esta sección muestra ejercicios orientados a la reproducibilidad de los análisis pasando por (1) los datos, (2) procesamiento, (3) análisis y (4) reporte. La idea fuerza de este ejercicio es introducir a estudiantes a los principios y prácticas fundamentales de la investigación social transparente y reproducible para que los implementen en sus tareas o informes.</span>
-<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">**Materiales para clases**</span><span class="co">](https://www.projecttier.org/tier-classroom/course-materials/)</span>: Esta sección está fuertemente orientada al análisis estadístico y a los métodos cuantitativos. Se presentan una serie de veinticuatro cursos de pregrado y postgrado que incorporan en su currículum los principios de transparencia y reproducibilidad en la enseñanza de los métodos de manera transversal. Los materiales de cada curso se encuentran disponibles para libre descarga, incorporando ejercicios de análisis estadístico (R, Stata, SPSS), reportes dinámicos (R Markdown, Markstat) y sus respectivos _syllabus_.</span>
-<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">**Trabajos estudiantiles**</span><span class="co">](https://www.projecttier.org/tier-classroom/student-work/#student-papers)</span>: En esta sección se incorporan una serie de trabajos estudiantiles/papers, los cuales están acompañados de una completa documentación basada en el <span class="co">[</span><span class="ot">Protocolo TIER (ver detalle abajo)</span><span class="co">](https://www.projecttier.org/tier-protocol/)</span>. El objetivo es presentar modelos de trabajos realizados con análisis reproducibles, de modo tal que quien esté interesado en emplear la estructura de un proyecto pueda observar un trabajo real e, idealmente, logre reproducir completamente sus resultados.</span>
-<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>Una de las contribuciones más relevantes del proyecto TIER es la elaboración de **estándares** para la **organización**, **publicación** y **comunicación** de proyectos de investigación empírica cuantitativa reproducible. Al respecto, existen dos esfuerzos orientados a este fin:</span>
-<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a>Por un lado tenemos el <span class="co">[</span><span class="ot">Protocolo TIER</span><span class="co">](https://www.projecttier.org/tier-protocol/specifications-3-0/#overview-of-the-documentation)</span>, el cual constituye una serie de especificaciones respecto a los contenidos de la documentación para la replicación de un estudio, el cual está orientado a ser empleado para la enseñanza de la investigación que incorpore la reproducibilidad de los análisis. En este caso es importante precisar, como ya hemos identificado en un principio, que el concepto de **replicación** se emplea como sinónimo de **reproducibilidad**, entendiendo este último como la conjunción de datos y métodos originales que nos permitan **regenerar** los resultados de un estudio que ha sido publicado. Por lo tanto, cuando en TIER se habla de replicación se refiere a esta idea. La documentación debe incluir una serie de elementos descritos a continuación.</span>
-<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Datos empleados por el proyecto</span>
-<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Rutinas de código escrito en el software empleado para la preparación y análisis estadístico. Esto se incluye dado que el objetivo es proveer los datos brutos a procesar, junto con todas las instrucciones que permiten **regenerar** los resultados reportados en el estudio.</span>
-<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fuentes de información que contribuyan a comprender detalladamente cada sección del estudio de inicio a fin.</span>
-<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>Por otro lado tenemos el <span class="co">[</span><span class="ot">Protocolo DRESS</span><span class="co">](https://www.projecttier.org/tier-protocol/dress-protocol/)</span> (Documenting Research in the Empirical Social Sciences). Al igual que el Protocolo TIER, se incorporan los mismos estándares para la documentación de una investigación transparente que incorpore la reproducibilidad de los análisis. Sin embargo, este se encuentra adaptado a los propósitos de los **investigadores profesionales**, más que para el uso de los estudiantes durante su formación en investigación.</span>
-<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="fu">### UK Reproducibility Network (UKRN)</span></span>
-<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-align: center</span></span>
-<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a><span class="co">#| out-width: 75%</span></span>
-<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/UKRN-Logo.png"</span>)</span>
-<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a>**Objetivos y visión**</span>
-<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a>La UK Reproducibility Network (UKRN) es un consorcio institucional del Reino Unido que tiene por objetivo promover los principios y prácticas de la ciencia abierta con una mirada local, es decir, en las instituciones nacionales y sus investigadores. Para contribuir a este objetivo se realizan esfuerzos en torno a la investigación de los factores que determinan una investigación abierta y robusta, promoviendo el entrenamiento a través de actividades abiertas y diseminando las buenas prácticas para una ciencia abierta. En particular, se proponen profundizar en los factores que determinan la carencia de **reproducibilidad** y **replicabilidad**, para lo cual se busca:</span>
-<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Desarrollar aproximaciones que contrarresten esta falta de transparencia.</span>
-<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Incrementar la confianza y la calidad de la investigación científica.</span>
-<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Abordar de manera transversal estos problemas en las distintas disciplinas científicas.</span>
-<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Avanzar hacia un cambio cultural en la ciencia y transformar las prácticas de quienes la desarrollan.</span>
-<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a>La UKRN se caracteriza por un trabajo en red, es decir, por un importante componente de vinculación entre instituciones de investigación asociadas a universidades como también a oficinas gubernamentales que desarrollan investigación (ver <span class="co">[</span><span class="ot">External Stakeholders</span><span class="co">](https://www.ukrn.org/stakeholders/)</span>). En esta línea, existen diversas iniciativas apoyadas por la UKRN que promueven el entrenamiento, metodologías y recursos tecnológicos para la ciencia abierta. A continuación se presentarán algunas de las contribuciones más relevantes realizadas por la red, como también algunas de las iniciativas externas que han sido respaldadas por la UKRN.</span>
-<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a>**Contribución**</span>
-<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>En el ámbito de la **Educación** y **Entrenamiento**, es posible identificar, por un lado, las contribuciones realizadas directamente por la UKRN y, por otro lado, las iniciativas que son respaldadas por la red y que promueven la formación en torno a los principios y prácticas de la ciencia abierta, particularmente en la etapa temprana de la carrera de investigación.</span>
-<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a>Respecto a una de las iniciativas elaboradas por los académicos e investigadores involucrados en la UKRN, encontramos uno de los principales recursos virtuales en un breve curso online que aborda una serie de tópicos relevantes para la promoción de la ciencia abierta, dentro de lo cual encontramos el uso de pre-prints, autorías, registered reports, datos abiertos y reproducibilidad. A continuación se puede observar la lista de sesiones que han sido desarrolladas en torno a estos temas.</span>
-<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a>{{&lt; video https://www.youtube.com/embed/videoseries?list=PLehgGZrvxReSisRauEJ2DxPAIYVVEr1qC &gt;}}</span>
-<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a>Junto con las sesiones, existe una serie de recursos compartidos a través de un proyecto abierto en el <span class="co">[</span><span class="ot">Open Science Framework</span><span class="co">](https://osf.io/x8j9q/)</span>. Aquí es posible acceder a documentos breves que abordan los tópicos de cada sesión, además de <span class="co">[</span><span class="ot">recursos adicionales</span><span class="co">](https://osf.io/qw9ck/)</span> sobre uso de software de código abierto y repositorios.</span>
-<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a>Un ámbito de desarrollo ha sido la disposición de **recursos tecnológicos** que promuevan y faciliten las prácticas en ciencia abierta. Una de las iniciativas impulsadas es el [**Open Research Calendar**](https://openresearchcalendar.org/), el cual consiste en un instrumento colaborativo y abierto que busca brindar a la comunidad de investigadores interesados en temas relacionados a la ciencia abierta un flujo constante de actualizaciones en torno a workshops y conferencias a nivel mundial que abordan tópicos sobre ciencia abierta unificados en un calendario. El carácter **colaborativo** de esta herramienta permite que usuarios previamente registrados y validados puedan contribuir con información que se centraliza en el calendario de eventos, precisando los contenidos y redireccionando a la inscripción y/o enlace para las actividades que se realizan a través de internet. Para facilitar la experiencia de usuario, el calendario se integra con Google Calendar que puede sincronizarse con la agenda personal y que se van actualizando automáticamente.</span>
-<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>Otra herramienta tecnológica patrocinada por la UKRN es la plataforma <span class="co">[</span><span class="ot">Octopus</span><span class="co">](https://science-octopus.org/)</span>. A la fecha, la plataforma se presenta como una aplicación en desarrollo y abierta a comentarios de los usuarios. En términos generales se propone ser una alternativa para contribuir a la apertura de publicaciones. El detalle se presenta así:</span>
-<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (...) sustituir a las revistas y los artículos como lugar para establecer la prioridad y registrar su trabajo con todo detalle, Octopus es de uso gratuito y publica todo tipo de trabajos científicos, ya sea una hipótesis, un método, datos, un análisis o una revisión por pares (traducción propia).</span></span>
-<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a>La Figura \@ref(fig:octopus) ilustra un ejemplo de cómo se ve un proyecto en Octopus. Vemos que existen siete componentes que buscan representar el flujo de una investigación. Entendiendo que los procesos de investigación no son lineales y tienden a existir iteraciones entre teoría y métodos, la virtud del registro y publicación de un proyecto permite que otros puedan conocer y evaluar nuestras hipótesis, plan de análisis, resultados y versiones de un artículo, así como también la vinculación entre cada sección.</span>
-<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-octopus</span></span>
-<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Ejemplo de un trabajo registrado en desarrollo en octopus.org"</span></span>
-<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-align: center</span></span>
-<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a><span class="co">#| out-width: 75%</span></span>
-<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/octopus.PNG"</span>)</span>
-<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a>Para publicar debemos <span class="co">[</span><span class="ot">ingresar</span><span class="co">](https://science-octopus.org/publish)</span> con una cuenta de ORCID. Si no tienes una cuenta puedes crear un perfil  <span class="co">[</span><span class="ot">aquí</span><span class="co">](https://orcid.org/)</span>. Luego, se deben seguir tres pasos. El primero es elegir qué tipo de componente se desea publicar (Problema, Hipótesis, Métodos, etc). Segundo, dar detalles sobre el componente y con qué otros proyectos se relaciona. Finalmente, contribuir con un borrador de escritura que luego será publicado.</span>
-<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a> </span>
 </code><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

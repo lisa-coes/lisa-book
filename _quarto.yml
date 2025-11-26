@@ -6,6 +6,12 @@ book:
   title: "Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura"
   author: "Laboratorio de Investigación Social Abierta"
   date: "11/01/2025"
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 2
+    pinned: true
+    logo: assets/cover.png # Logo que aparece en el panel lateral
   downloads: 
     - pdf
   search: true
@@ -14,10 +20,27 @@ book:
   chapters:
     - index.qmd
     - 01-intro.qmd
-    - 02-diseno-transparente.qmd
-    - 03-datos-abiertos.qmd
-    - 04-analisis-reproducible.qmd
-    - 05-publicaciones-libres.qmd
+    - part: 02-diseno-transparente.qmd
+      title: "Diseño Transparente"
+      chapters:
+        - 02a-diseno-transparente.qmd
+        - 02b-diseno-transparente.qmd
+    - part: 03-datos-abiertos.qmd
+      title: "Datos Abiertos"
+      chapters:
+        - 03a-datos-abiertos.qmd
+        - 03b-datos-abiertos.qmd
+    - part: 04-analisis-reproducible.qmd
+      title: "Análisis Reproducible"
+      chapters:
+        - 04a-analisis-reproducible.qmd
+    - part: 05-publicaciones-libres.qmd
+      title: "Publicaciones Libres"
+      chapters:
+        - 05a-publicaciones-libres.qmd
+        - 05b-publicaciones-libres.qmd
+        - 05c-publicaciones-libres.qmd
+        - 05d-publicaciones-libres.qmd
     - 06-conclusion.qmd
     - 07-references.qmd
 
@@ -39,7 +62,8 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     include-in-header:
-      - includes/justify.html      
+      - includes/justify.html
+
   pdf:
     pdf-engine: xelatex          # Requiere LaTeX con soporte para fuentes OpenType
     toc: false                   # Generamos TOC/LOF/LOT manualmente en title-pdf.tex
@@ -58,6 +82,5 @@ format:
     colorlinks: true
     number-sections: true
     
-
-
-
+metadata-files:
+  - _metadata.yml               # Ajustes adicionales (palabras clave, portada, etc.)

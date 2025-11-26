@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diseño transparente – Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura</title>
+<title>10&nbsp; ¿Cuál es el destino de las ciencias sociales en el mundo del Open Access? – Herramientas computacionales para la ciencia abierta: reproducibilidad, transparencia y apertura</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,8 +84,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./02a-diseno-transparente.html" rel="next">
-<link href="./01-intro.html" rel="prev">
+<link href="./06-conclusion.html" rel="next">
+<link href="./05c-publicaciones-libres.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -136,6 +136,35 @@ p {
 }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -148,7 +177,7 @@ p {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-diseno-transparente.html">Diseño transparente</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-publicaciones-libres.html">Publicaciones libres</a></li><li class="breadcrumb-item"><a href="./05d-publicaciones-libres.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -193,7 +222,7 @@ p {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./02-diseno-transparente.html" class="sidebar-item-text sidebar-link active">
+            <a href="./02-diseno-transparente.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Diseño transparente</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -283,7 +312,7 @@ p {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05d-publicaciones-libres.html" class="sidebar-item-text sidebar-link">
+  <a href="./05d-publicaciones-libres.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></span></a>
   </div>
 </li>
@@ -312,9 +341,9 @@ p {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-publicaciones-libres.html">Publicaciones libres</a></li><li class="breadcrumb-item"><a href="./05d-publicaciones-libres.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Diseño transparente</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
 
 
@@ -331,20 +360,61 @@ p {
 </header>
 
 
-<p>Uno de los principios que guía el quehacer científico es el escepticismo organizado <span class="citation" data-cites="merton_sociology_1973">(<a href="07-references.html#ref-merton_sociology_1973" role="doc-biblioref">Merton 1973</a>)</span>. Ningún hallazgo se acepta porque sí, sino que los científicos deben demostrarle a otros miembros de la comunidad científica que <strong>sus hallazgos son válidos</strong>. En orden de lograr esto es que se han desarrollado varios tipos de herramientas como los indicadores de impacto, la revisión por pares o las convenciones para el reporte de análisis estadístico. Sin embargo, casos como los de Diderik Stapel han dejado al descubierto que este tipo de herramientas pueden no ser suficientes para asegurar la credibilidad de los hallazgos científicos.</p>
-<p>Diderik Stapel fue un investigador en el campo de la psicología social. Su carrera se caracterizó por una trayectoria ejemplar: entre 1995 y 2015 publicó aproximadamente 150 artículos en revistas científicas, algunas de las más prestigiosas (e.g.&nbsp;<em>Science</em>). También, fue galardonado con el premio a la trayectoria académica por la Sociedad de Psicología Social Experimental (SSEP, por sus siglas en inglés). Stapel llegó a ser una figura reconocida en su área, sin embargo, todo cambió el año 2011 cuando se confirmó que gran parte de sus artículos contenían <strong>datos inventados</strong>. La investigación final de su caso determinó que más de 50 de sus artículos eran fraudulentos <span class="citation" data-cites="carey_fraud_2011">(<a href="07-references.html#ref-carey_fraud_2011" role="doc-biblioref">Carey 2011</a>)</span>. De hecho, Stapel figura dentro de los diez investigadores con más artículos retractados (58) en <a href="https://retractionwatch.com/"><em>Retraction Watch</em></a>, una plataforma que se dedica a sistematizar y mantener una lista actualizada sobre retracciones de artículos.</p>
-<p>A efectos de este escrito, lo más destacable es que Stapel cometió mala conducta académica durante más de 15 años. <em>¿Cómo fue esto posible? ¿cómo ninguno de sus colegas, alumnos o coautores se dio cuenta de sus malas prácticas?</em> La respuesta tiene que ver con el concepto central de este capítulo: por la falta de <strong>transparencia</strong> durante el proceso de investigación. Stapel se caracterizaba por hacer el trabajo solo y “a puertas cerradas”, es decir, nadie más que él tenía acceso a los datos brutos, ni tampoco a la ejecución de las pruebas estadísticas. Generalmente, sólo compartía con sus colegas los datos procesados y con los análisis ya efectuados. A raíz de esta forma de trabajo es que se abría la oportunidad para que Stapel inventara datos a su conveniencia. Como nadie más colaboraba con el procesamiento de datos, ni tampoco parecía extraño que así fuera, Stapel pudo sostener una trayectoria académica destacable en base a la falta de transparencia.</p>
-<p>El ejemplo de Stapel es solo una forma de poner en discusión la importancia de la transparencia en el proceso de investigación. Siguiendo esta línea, este capítulo busca presentar una primera aproximación, tanto teórica como práctica, sobre la transparencia en la investigación social. El objetivo es que investigadoras e investigadores de las ciencias sociales empíricas se introduzcan en la temática de la transparencia, así como también que conozcan las principales herramientas que se están utilizando para adoptarla.</p>
+<p>La dicotomía entre ciencias naturales y sociales es una discusión epistemológica de años que no solo remite al objeto de estudio, sino que también a las metodologías de investigación, a los criterios de validez y quizás lo más importante, a la reflexión en torno al carácter objetivo de la propia ciencia. Es claro que el movimiento del Open Access no pretende dar respuestas ni reflexiones profundas sobre este tipo de cuestionamientos de orden epistemológico, y aunque se abre en extenso como una herramienta que sirve para la libre difusión de los conocimientos en el plano de Internet, una cosa es clara y es que las ciencias sociales han llegado algo tarde en comparación a las ciencias exactas <span class="citation" data-cites="sadaba_acceso_2014">(<a href="07-references.html#ref-sadaba_acceso_2014" role="doc-biblioref">Sadaba 2014</a>)</span>. La comunidad científica ligada al campo de lo social ha hecho los esfuerzos por adquirir prácticas abiertas y, de este modo, han comenzado a trazar una próspera trayectoria en el campo del Open Access con un fuerte componente político.</p>
+<p>Las barreras de pago no son el único obstáculo que enfrenta la libre circulación del conocimiento científico, <span class="citation" data-cites="banzato_soberania_2019">Banzato (<a href="07-references.html#ref-banzato_soberania_2019" role="doc-biblioref">2019</a>)</span> indica que la industria editorial ha instalado la idea de una ciencia del centro o bien denominada <em>mainstream</em>, un concepto consolidado globalmente gracias al trabajo hecho por los servicios de <a href="https://clarivate.com/webofsciencegroup/release-notes/wos/new-wos-admin-faq/" target="_blank">Web Of Science WoS</a> y <a href="https://www.elsevier.com/solutions/scopus?dgcid=RN_AGCM_Sourced_300005030" target="_blank">Scopus</a> que han creado indicadores bibliométricos que segmentan a las investigaciones científicas, fomentan el uso del inglés como la lengua ilustre de la ciencia, entregan prestigio a aquellos trabajos que siguen los estándares de publicación y son indexadas en las revistas de gran renombre. En suma, generan un sistema restrictivo donde existe poca representatividad de las revistas de ciencias sociales. Según <span class="citation" data-cites="beigel_relaciones_2018">Beigel (<a href="07-references.html#ref-beigel_relaciones_2018" role="doc-biblioref">2018</a>)</span>, las bases de datos comerciales no solo contribuyeron en la ilusión de una ciencia del <em>centro</em>, sino que también desarrollaron la idea de un tipo de ciencia <em>“Periférica”</em>, que refiere al trabajo que se reclusa en el terreno de la academia regional-local (como es el caso Latinoamericano). Este tipo de ciencia se indexa en revistas subvaloradas y comprendidas como endogámicas y de baja calidad, pues en su gran mayoría producen y re-producen el conocimiento dentro de la propia región, teniendo así un rol subsidiario en el desarrollo de la ciencia y no protagónico como es el caso anterior.</p>
+<p>La apuesta del Open Access de hacer frente al oligopolio de la industria editorial y lograr un cambio sociocultural en la ciencia a menudo tiene que luchar con condiciones sociales, culturales y económicas que terminan modelando la forma en que los cambios tecnológicos se convierten en cambios sociales. Por ello el Open Access es un proceso diferencial no solo entre las disciplinas, sino que también entre las zonas geográficas y las distintas regiones del mundo <span class="citation" data-cites="sadaba_acceso_2014">(<a href="07-references.html#ref-sadaba_acceso_2014" role="doc-biblioref">Sadaba 2014</a>)</span>. La globalización y el auge de Internet por sí mismos no democratizan ni permiten la distribución equitativa del conocimiento, por ello es importante adscribir a las palabras de <span class="citation" data-cites="babini_universidades_2014">Babini (<a href="07-references.html#ref-babini_universidades_2014" role="doc-biblioref">2014</a>)</span>, coordinadora del programa de acceso abierto de CLACSO, quien hace un llamado a la comunidad científica de tomar responsabilidad por gestionar comunicaciones académicas no comerciales, cuyo objetivo sea permitir que el conocimiento se convierta en un <strong>bien público</strong> y, por lo tanto, se gestione como tal.</p>
+<p>La experiencia latinoamericana ha logrado arribar en el puerto de la ruta verde de una forma similar al contexto anglosajón, en el estudio de <span class="citation" data-cites="piwowar_future_2019">Piwowar, Priem, y Orr (<a href="07-references.html#ref-piwowar_future_2019" role="doc-biblioref">2019</a>)</span> se evidencia que tanto en ciencias sociales como en psicología se utiliza mayoritariamente la ruta verde para la publicación abierta (véase <a href="#fig-piwowar2019" class="quarto-xref">Figura&nbsp;<span>10.1</span></a>). Para el caso Latinoamericano, se ha creado una estructura no comercial donde la publicación libre es manejada por institutos de investigación sin fines de lucro o por universidades estatales, dando forma a un ecosistema sustentado por <a href="https://openjournalsystems.com/" target="_blank">Open Journals Systems</a> (Sistema de Revistas Abiertas en español), un software libre que entrega herramientas para la administración de plataformas digitales como <a href="https://www.latindex.org/latindex/inicio" target="_blank">Latindex</a>, <a href="https://www.redalyc.org/" target="_blank">Redalyc</a> y <a href="https://scielo.org/es/" target="_blank">Scielo</a>, los principales exponentes del Open Access en la región según <span class="citation" data-cites="becerrilgarcia_end_2019">Becerril García y Aguado López (<a href="07-references.html#ref-becerrilgarcia_end_2019" role="doc-biblioref">2019</a>)</span>. Estas plataformas sirvieron de trampolín para el desarrollo de la ciencia abierta de tipo <em>no comercial</em>, una distinción propia de Latinoamérica <span class="citation" data-cites="beigel_america_2021">(<a href="07-references.html#ref-beigel_america_2021" role="doc-biblioref">Beigel 2021</a>)</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-piwowar2019" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-piwowar2019-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Piwowar_future.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-piwowar2019-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Lista de figuras&nbsp;10.1: Piwowar, H. et al.&nbsp;(2019). Porcentaje de diferentes tipos de acceso de una muestra aleatoria de artículos y reseñas de WoS con un DOI publicado entre 2009 y 2015 por disciplina (Traducción propia).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Algunas personas ligaran de manera exclusiva el Open Acces a metodologías de carácter cuantitativo, desconfiando del uso de estas técnicas para la investigación cualitativa con el temor de la pérdida de confidencialidad o el reproche sobre la toma de decisiones metodológicas. La evidencia levantada por <span class="citation" data-cites="mardones_usos_2018">Mardones, Ulloa, y Salas (<a href="07-references.html#ref-mardones_usos_2018" role="doc-biblioref">2018</a>)</span> demuestra que existen experiencias cualitativas de trabajos publicados en abierto que no tienen repercusiones negativas, aún cuando estos declaran y describen sus diseños. Ello demuestra que la publicación abierta no afecta la particularidad y flexibilidad del diseño, siempre y cuando este se dirija con el fin de develar el fenómeno de estudio.</p>
+<p><span class="citation" data-cites="taylor_altmetric_2020">Taylor (<a href="07-references.html#ref-taylor_altmetric_2020" role="doc-biblioref">2020</a>)</span> realizó un análisis sistemático de la publicación en abierto de libros y capítulos en el área de las ciencias sociales, pues ha habido una falta de atención en la publicación de libros en abierto, muy por el contrario al análisis que se realiza casi por completo a artículos y revistas. Este estudio comprende la existencia de un gran número de científicos sociales que se abocan a publicar en libros y, dentro de los resultados de la investigación, se evidencia que el número de libros y capítulos publicados en acceso abierto es mucho más bajo que el de los artículos. Sin embargo, a través de los años ha ido en un ligero incremento, siendo estos en su gran mayoría de las disciplinas de la psicología y la economía, y en último lugar, textos del área de la filosofía. Lo anterior no solo evidencia un auge constante de la publicación de libros y capítulos en abierto, también da cuenta de que al igual que en el panorama general, dentro de las humanidades y las ciencias sociales ocurre una dicotomía entre las disciplinas.</p>
+<p>Las revistas académicas y los repositorios antes mencionados son administrados, dirigidos y financiados por instituciones académicas o por organismos no gubernamentales sin fines de lucro -como es el caso del Centro Latinoamericano de Ciencias Sociales (CLACSO)-, por lo que no se incluyen tarifas ni para autores ni para lectores. América Latina ha desarrollado una suerte de <em>ecosistema en red</em>, que se configura cómo un espacio virtual donde los miembros de las universidades ponen a disposición el contenido intelectual en repositorios de sus casas de estudio, los cuales a su vez se encuentran interconectados a otros repositorios académicos. Un ejemplo claro de ello es <a href="https://www.lareferencia.info/es/" target="_blank">LaReferencia</a> que integra más de 1.3 millones de archivos según <span class="citation" data-cites="becerrilgarcia_end_2019">Becerril García y Aguado López (<a href="07-references.html#ref-becerrilgarcia_end_2019" role="doc-biblioref">2019</a>)</span>. En términos de políticas públicas, los organismos estatales han desarrollado leyes que promueven el uso de prácticas abiertas en el desarrollo de investigaciones con fondos estatales, sin embargo, por lo que señala <span class="citation" data-cites="becerrilgarcia_end_2019">Becerril García y Aguado López (<a href="07-references.html#ref-becerrilgarcia_end_2019" role="doc-biblioref">2019</a>)</span>, los mandatos tienden a ser aún muy débiles y operan como sugerencias más que como obligaciones metodológicas. Otra debilidad indicada por el mismo estudio da cuenta de que la mayoría de los sistemas de validación social de las investigaciones descansan en el renombre de la revista, aún cuando estas se encuentren lejos de las discusiones locales o bien ajenas a los contextos latinoamericanos.</p>
+El destino de las ciencias sociales en el mundo del Open Access es bastante amplio. Los beneficios que entrega este paradigma no solo contribuyen a la difusión y amplio reconocimiento de la obra y de su autoría, también aportan a la apertura del conocimiento científico que sirve a nivel local en la toma de decisiones, en la consecución de estrategias políticas y a nivel regional en tanto aporta al desarrollo cultural y económico de la sociedad en su conjunto. Sin duda, el camino que han trazado otras personas sigue su curso e invita no solo a investigadores a incurrir en este tipo de prácticas, sino que también pone la responsabilidad en las instituciones universitarias y gubernamentales en proporcionar las herramientas, guías y conocimientos necesarios para que el Open Access sea una alternativa viable por la cual la ciencia y el conocimiento se transformen.
+<div>
 
 
 <!-- -->
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
-<div id="ref-carey_fraud_2011" class="csl-entry" role="listitem">
-Carey, Benedict. 2011. <span>«Fraud <span>Case Seen</span> as a <span>Red Flag</span> for <span>Psychology Research</span>»</span>. <em>The New York Times</em>, noviembre.
 </div>
-<div id="ref-merton_sociology_1973" class="csl-entry" role="listitem">
-Merton, Robert K. 1973. <em>The <span>Sociology</span> of <span>Science</span>: <span>Theorerical</span> and <span>Empirical Investigations</span></em>. Chicago; London: The University of Chicago Press.
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-babini_universidades_2014" class="csl-entry" role="listitem">
+Babini, Dominique. 2014. <span>«<span>Universidades y acceso abierto: hora de tomar protagonismo</span>»</span>. En <em><span>Foro Revista Iberoamericana de Ciencia, Tecnolog<span>í</span>a y Sociedad</span></em>, 1-3. 2015.
+</div>
+<div id="ref-banzato_soberania_2019" class="csl-entry" role="listitem">
+Banzato, Guillermo. 2019. <span>«<span>Soberan<span>í</span>a del conocimiento para superar inequidades: pol<span>í</span>ticas de Acceso Abierto para revistas cient<span>í</span>ficas en Am<span>é</span>rica Latina</span>»</span>. <em>Mecila Working Paper Series</em> 18: 1-18.
+</div>
+<div id="ref-becerrilgarcia_end_2019" class="csl-entry" role="listitem">
+Becerril García, Arianna, y Eduardo Aguado López. 2019. <span>«The <span>End</span> of a <span>Centralized Open Access Project</span> and the <span>Beginning</span> of a <span>Community-Based Sustainable Infrastructure</span> for <span>Latin America</span>»</span>. <em>OpenEdition Press</em>, 41-55. <a href="https://doi.org/10.4000/books.oep. 9003.">https://doi.org/10.4000/books.oep. 9003.</a>
+</div>
+<div id="ref-beigel_relaciones_2018" class="csl-entry" role="listitem">
+Beigel, Fernanda. 2018. <span>«<span>Las relaciones de poder en la ciencia mundial</span>»</span>. <em>Nueva Sociedad</em> 274: 13-28.
+</div>
+<div id="ref-beigel_america_2021" class="csl-entry" role="listitem">
+———. 2021. <span>«<span>Am<span>é</span>rica Latina podr<span>í</span>a convertirse en l<span>í</span>der mundial de la ciencia abierta no comercial</span>»</span>. {Scientific Blog}. <em>The Conversation</em>.
+</div>
+<div id="ref-mardones_usos_2018" class="csl-entry" role="listitem">
+Mardones, Rodolfo, Jorge Ulloa, y Gonzálo Salas. 2018. <span>«<span>Usos del dise<span>ñ</span>o metodol<span>ó</span>gico cualitativo en art<span>í</span>culos de acceso abierto de alto impacto en ciencias sociales</span>»</span>. <em>Forum: Qualitative Social Research</em> 19, n<span><span class="math inline">\(^\circ\)</span></span>1: 1-18.
+</div>
+<div id="ref-piwowar_future_2019" class="csl-entry" role="listitem">
+Piwowar, Heather, Jason Priem, y Richard Orr. 2019. <span>«The <span>Future</span> of <span>OA</span>: <span>A</span> Large-Scale Analysis Projecting <span>Open Access</span> Publication and Readership»</span>. <em>BioRxiv</em>, 795310.
+</div>
+<div id="ref-sadaba_acceso_2014" class="csl-entry" role="listitem">
+Sadaba, Igor. 2014. <span>«<span>EL ACCESO ABIERTO EN CIENCIAS SOCIALES</span>: <span>NOTAS SOCIOL<span>Ó</span>GICAS SOBRE PUBLICACIONES</span>, <span>COMUNIDADES Y CAMPOS</span>»</span> 17: 93-113.
+</div>
+<div id="ref-taylor_altmetric_2020" class="csl-entry" role="listitem">
+Taylor, Michael. 2020. <span>«An Altmetric Attention Advantage for Open Access Books in the Humanities and Social Sciences»</span>. <em>Scientometrics</em> 125: 2523-43. <a href="https://doi.org/10.1007/s11192-020-03735-8">https://doi.org/10.1007/s11192-020-03735-8</a>.
 </div>
 </div>
 
@@ -806,28 +876,39 @@ Merton, Robert K. 1973. <em>The <span>Sociology</span> of <span>Science</span>: 
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./01-intro.html" class="pagination-link" aria-label="Introducción">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span>
+      <a href="./05c-publicaciones-libres.html" class="pagination-link" aria-label="Herramientas para publicar">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Herramientas para publicar</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./02a-diseno-transparente.html" class="pagination-link" aria-label="Sobre la transparencia">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Sobre la transparencia</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./06-conclusion.html" class="pagination-link" aria-label="Conclusión">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Conclusión</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Diseño transparente</span></span>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## ¿Cuál es el destino de las ciencias sociales en el mundo del Open Access?</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Uno de los principios que guía el quehacer científico es el escepticismo organizado <span class="co">[</span><span class="ot">@merton_sociology_1973</span><span class="co">]</span>. Ningún hallazgo se acepta porque sí, sino que los científicos deben demostrarle a otros miembros de la comunidad científica que **sus hallazgos son válidos**. En orden de lograr esto es que se han desarrollado varios tipos de herramientas como los indicadores de impacto, la revisión por pares o las convenciones para el reporte de análisis estadístico. Sin embargo, casos como los de Diderik Stapel han dejado al descubierto que este tipo de herramientas pueden no ser suficientes para asegurar la credibilidad de los hallazgos científicos.</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>La dicotomía entre ciencias naturales y sociales es una discusión epistemológica de años que no solo remite al objeto de estudio, sino que también a las metodologías de investigación, a los criterios de validez y quizás lo más importante, a la reflexión en torno al carácter objetivo de la propia ciencia. Es claro que el movimiento del Open Access no pretende dar respuestas ni reflexiones profundas sobre este tipo de cuestionamientos de orden epistemológico, y aunque se abre en extenso como una herramienta que sirve para la libre difusión de los conocimientos en el plano de Internet, una cosa es clara y es que las ciencias sociales han llegado algo tarde en comparación a las ciencias exactas <span class="co">[</span><span class="ot">@sadaba_acceso_2014</span><span class="co">]</span>. La comunidad científica ligada al campo de lo social ha hecho los esfuerzos por adquirir prácticas abiertas y, de este modo, han comenzado a trazar una próspera trayectoria en el campo del Open Access con un fuerte componente político.</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Diderik Stapel fue un investigador en el campo de la psicología social. Su carrera se caracterizó por una trayectoria ejemplar: entre 1995 y 2015 publicó aproximadamente 150 artículos en revistas científicas, algunas de las más prestigiosas (e.g. *Science*). También, fue galardonado con el premio a la trayectoria académica por la Sociedad de Psicología Social Experimental (SSEP, por sus siglas en inglés). Stapel llegó a ser una figura reconocida en su área, sin embargo, todo cambió el año 2011 cuando se confirmó que gran parte de sus artículos contenían **datos inventados**. La investigación final de su caso determinó que más de 50 de sus artículos eran fraudulentos <span class="co">[</span><span class="ot">@carey_fraud_2011</span><span class="co">]</span>. De hecho, Stapel figura dentro de los diez investigadores con más artículos retractados (58) en <span class="co">[</span><span class="ot">_Retraction Watch_</span><span class="co">](https://retractionwatch.com/)</span>, una plataforma que se dedica a sistematizar y mantener una lista actualizada sobre retracciones de artículos. </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Las barreras de pago no son el único obstáculo que enfrenta la libre circulación del conocimiento científico, @banzato_soberania_2019 indica que la industria editorial ha instalado la idea de una ciencia del centro o bien denominada *mainstream*, un concepto consolidado globalmente gracias al trabajo hecho por los servicios de [Web Of Science WoS](https://clarivate.com/webofsciencegroup/release-notes/wos/new-wos-admin-faq/){target="_blank"} y [Scopus](https://www.elsevier.com/solutions/scopus?dgcid=RN_AGCM_Sourced_300005030){target="_blank"} que han creado indicadores bibliométricos que segmentan a las investigaciones científicas, fomentan el uso del inglés como la lengua ilustre de la ciencia, entregan prestigio a aquellos trabajos que siguen los estándares de publicación y son indexadas en las revistas de gran renombre. En suma, generan un sistema restrictivo donde existe poca representatividad de las revistas de ciencias sociales. Según @beigel_relaciones_2018, las bases de datos comerciales no solo contribuyeron en la ilusión de una ciencia del *centro*, sino que también desarrollaron la idea de un tipo de ciencia *"Periférica"*, que refiere al trabajo que se reclusa en el terreno de la academia regional-local (como es el caso Latinoamericano). Este tipo de ciencia se indexa en revistas subvaloradas y comprendidas como endogámicas y de baja calidad, pues en su gran mayoría producen y re-producen el conocimiento dentro de la propia región, teniendo así un rol subsidiario en el desarrollo de la ciencia y no protagónico como es el caso anterior.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>La apuesta del Open Access de hacer frente al oligopolio de la industria editorial y lograr un cambio sociocultural en la ciencia a menudo tiene que luchar con condiciones sociales, culturales y económicas que terminan modelando la forma en que los cambios tecnológicos se convierten en cambios sociales. Por ello el Open Access es un proceso diferencial no solo entre las disciplinas, sino que también entre las zonas geográficas y las distintas regiones del mundo <span class="co">[</span><span class="ot">@sadaba_acceso_2014</span><span class="co">]</span>. La globalización y el auge de Internet por sí mismos no democratizan ni permiten la distribución equitativa del conocimiento, por ello es importante adscribir a las palabras de @babini_universidades_2014, coordinadora del programa de acceso abierto de CLACSO, quien hace un llamado a la comunidad científica de tomar responsabilidad por gestionar comunicaciones académicas no comerciales, cuyo objetivo sea permitir que el conocimiento se convierta en un **bien público** y, por lo tanto, se gestione como tal.</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>A efectos de este escrito, lo más destacable es que Stapel cometió mala conducta académica durante más de 15 años. *¿Cómo fue esto posible? ¿cómo ninguno de sus colegas, alumnos o coautores se dio cuenta de sus malas prácticas?* La respuesta tiene que ver con el concepto central de este capítulo: por la falta de **transparencia** durante el proceso de investigación. Stapel se caracterizaba por hacer el trabajo solo y "a puertas cerradas", es decir, nadie más que él tenía acceso a los datos brutos, ni tampoco a la ejecución de las pruebas estadísticas. Generalmente, sólo compartía con sus colegas los datos procesados y con los análisis ya efectuados. A raíz de esta forma de trabajo es que se abría la oportunidad para que Stapel inventara datos a su conveniencia. Como nadie más colaboraba con el procesamiento de datos, ni tampoco parecía extraño que así fuera, Stapel pudo sostener una trayectoria académica destacable en base a la falta de transparencia.</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>La experiencia latinoamericana ha logrado arribar en el puerto de la ruta verde de una forma similar al contexto anglosajón, en el estudio de @piwowar_future_2019 se evidencia que tanto en ciencias sociales como en psicología se utiliza mayoritariamente la ruta verde para la publicación abierta (véase @fig-piwowar2019). Para el caso Latinoamericano, se ha creado una estructura no comercial donde la publicación libre es manejada por institutos de investigación sin fines de lucro o por universidades estatales, dando forma a un ecosistema sustentado por <span class="co">[</span><span class="ot">Open Journals Systems</span><span class="co">](https://openjournalsystems.com/)</span>{target="_blank"} (Sistema de Revistas Abiertas en español), un software libre que entrega herramientas para la administración de plataformas digitales como <span class="co">[</span><span class="ot">Latindex</span><span class="co">](https://www.latindex.org/latindex/inicio)</span>{target="_blank"}, <span class="co">[</span><span class="ot">Redalyc</span><span class="co">](https://www.redalyc.org/)</span>{target="_blank"} y <span class="co">[</span><span class="ot">Scielo</span><span class="co">](https://scielo.org/es/)</span>{target="_blank"}, los principales exponentes del Open Access en la región según @becerrilgarcia_end_2019. Estas plataformas sirvieron de trampolín para el desarrollo de la ciencia abierta de tipo *no comercial*, una distinción propia de Latinoamérica <span class="co">[</span><span class="ot">@beigel_america_2021</span><span class="co">]</span>.</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>El ejemplo de Stapel es solo una forma de poner en discusión la importancia de la transparencia en el proceso de investigación. Siguiendo esta línea, este capítulo busca presentar una primera aproximación, tanto teórica como práctica, sobre la transparencia en la investigación social. El objetivo es que investigadoras e investigadores de las ciencias sociales empíricas se introduzcan en la temática de la transparencia, así como también que conozcan las principales herramientas que se están utilizando para adoptarla.</span></code><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE, fig.cap="Piwowar, H. et al. (2019). Porcentaje de diferentes tipos de acceso de una muestra aleatoria de artículos y reseñas de WoS con un DOI publicado entre 2009 y 2015 por disciplina (Traducción propia).", fig.align = 'center', out.width = '100%'}</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-piwowar2019</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="at">path =</span> <span class="st">"images/Piwowar_future.png"</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Algunas personas ligaran de manera exclusiva el Open Acces a metodologías de carácter cuantitativo, desconfiando del uso de estas técnicas para la investigación cualitativa con el temor de la pérdida de confidencialidad o el reproche sobre la toma de decisiones metodológicas. La evidencia levantada por @mardones_usos_2018 demuestra que existen experiencias cualitativas de trabajos publicados en abierto que no tienen repercusiones negativas, aún cuando estos declaran y describen sus diseños. Ello demuestra que la publicación abierta no afecta la particularidad y flexibilidad del diseño, siempre y cuando este se dirija con el fin de develar el fenómeno de estudio. </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>@taylor_altmetric_2020 realizó un análisis sistemático de la publicación en abierto de libros y capítulos en el área de las ciencias sociales, pues ha habido una falta de atención en la publicación de libros en abierto, muy por el contrario al análisis que se realiza casi por completo a artículos y revistas. Este estudio comprende la existencia de un gran número de científicos sociales que se abocan a publicar en libros y, dentro de los resultados de la investigación, se evidencia que el número de libros y capítulos publicados en acceso abierto es mucho más bajo que el de los artículos. Sin embargo, a través de los años ha ido en un ligero incremento, siendo estos en su gran mayoría de las disciplinas de la psicología y la economía, y en último lugar, textos del área de la filosofía. Lo anterior no solo evidencia un auge constante de la publicación de libros y capítulos en abierto, también da cuenta de que al igual que en el panorama general, dentro de las humanidades y las ciencias sociales ocurre una dicotomía entre las disciplinas.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Las revistas académicas y los repositorios antes mencionados son administrados, dirigidos y financiados por instituciones académicas o por organismos no gubernamentales sin fines de lucro -como es el caso del Centro Latinoamericano de Ciencias Sociales (CLACSO)-, por lo que no se incluyen tarifas ni para autores ni para lectores. América Latina ha desarrollado una suerte de *ecosistema en red*, que se configura cómo un espacio virtual donde los miembros de las universidades ponen a disposición el contenido intelectual en repositorios de sus casas de estudio, los cuales a su vez se encuentran interconectados a otros repositorios académicos. Un ejemplo claro de ello es <span class="co">[</span><span class="ot">LaReferencia</span><span class="co">](https://www.lareferencia.info/es/)</span>{target="_blank"} que integra más de 1.3 millones de archivos según @becerrilgarcia_end_2019. En términos de políticas públicas, los organismos estatales han desarrollado leyes que promueven el uso de prácticas abiertas en el desarrollo de investigaciones con fondos estatales, sin embargo, por lo que señala @becerrilgarcia_end_2019, los mandatos tienden a ser aún muy débiles y operan como sugerencias más que como obligaciones metodológicas. Otra debilidad indicada por el mismo estudio da cuenta de que la mayoría de los sistemas de validación social de las investigaciones descansan en el renombre de la revista, aún cuando estas se encuentren lejos de las discusiones locales o bien ajenas a los contextos latinoamericanos.</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>El destino de las ciencias sociales en el mundo del Open Access es bastante amplio. Los beneficios que entrega este paradigma no solo contribuyen a la difusión y amplio reconocimiento de la obra y de su autoría, también aportan a la apertura del conocimiento científico que sirve a nivel local en la toma de decisiones, en la consecución de estrategias políticas y a nivel regional en tanto aporta al desarrollo cultural y económico de la sociedad en su conjunto. Sin duda, el camino que han trazado otras personas sigue su curso e invita no solo a investigadores a incurrir en este tipo de prácticas, sino que también pone la responsabilidad en las instituciones universitarias y gubernamentales en proporcionar las herramientas, guías y conocimientos necesarios para que el Open Access sea una alternativa viable por la cual la ciencia y el conocimiento se transformen. <span class="dt">&lt;</span><span class="kw">div</span><span class="dt">/&gt;</span></span></code><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
